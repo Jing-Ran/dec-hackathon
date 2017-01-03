@@ -1,0 +1,606 @@
+/*font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;*/
+
+
+/*Box sizing and placeholder reset*/
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+::-webkit-input-placeholder {
+  color: #bbc7c9;
+}
+
+:-moz-placeholder {
+  /* FF 4-18 */
+  color: #bbc7c9;
+}
+
+::-moz-placeholder {
+  /* FF 19+ */
+  color: #bbc7c9;
+}
+
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #bbc7c9;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*Main styles go here*/
+
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #4f565e;
+}
+
+h1, h2, h3 {
+  color: #353839;
+}
+
+h1 {
+  font-size: 1.65rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+  margin-top: 2rem;
+  margin-bottom: .2rem;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #bbb;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+textarea {
+  resize: none;
+}
+
+/* Container, wrapping and shadow */
+
+.container {
+  background-color: #e6eaef;
+  width: 100%;
+}
+
+  .bg-content-wrap {
+    background-color: #e6eaef;
+    border-radius: 5px;
+    width: 700px;
+    margin: 0 auto;
+    margin: -150px auto 0;
+    padding-bottom: 4rem;
+    position: relative;
+  }
+
+    .bg-shadow {
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      box-shadow: 0 -8px 10px rgba(0,0,0,.25);
+      height: 250px;
+      position: absolute;
+      width: 700px;
+    }
+
+/*Laying out the page*/
+
+.col-1 {
+  width: 8.333333%; 
+}
+
+.col-11 {
+  width: 91.666667%; 
+} 
+
+/*Recurring styles*/
+
+.bg-uppercase {
+  text-transform: uppercase;
+}
+
+.bg-md-blue {
+  color: #6cc8db;
+}
+
+/* Background image */
+
+.bg-background-image {
+  position: relative;
+}
+
+  .bg-background-image-shade {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.65);
+    position: absolute;
+    top: 0;
+  }
+
+  .bg-background-image img {
+    max-width: 100%;
+  }
+
+    .bg-background-image-text {
+      color: #fff;
+      font-size: 3rem;
+      font-weight: 100;
+      position: absolute;
+      top: 25%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+/* Article section styling */
+
+.bg-article-section {
+  display: flex;
+  padding: 2rem;
+}
+
+  .bg-article-date {
+    align-items: center;
+    border-right: 1px solid #bbb;
+    color: #aaa;
+    display: flex;
+    flex-direction: column;
+    height: 140px;
+    justify-content: center;
+    letter-spacing: 3px;
+    margin-right: 2rem;
+    padding-right: 1.3rem;
+  }
+
+    .bg-article-day {
+      font-size: 1.1rem;
+      margin-bottom: .2rem;
+    }
+
+    .bg-article-month {
+      font-size: .75rem;
+    }
+
+  .bg-author-profile {
+    align-items: center;
+    display: flex;
+  }
+
+    .bg-author-name-wrap {
+      display: flex;
+      flex-direction: column;
+      letter-spacing: .15rem;
+      padding-left: 1rem;
+    }
+
+      .bg-author {
+        color: #aaa;
+        font-size: .64rem;
+        margin-bottom: .2rem;
+      }
+
+      .bg-author-name {
+        font-size: .75rem;
+      }
+
+  .bg-article-p, .bg-comment-p {
+  font-size: .9rem;
+  line-height: 1.5rem;
+}
+
+
+  .bg-link {
+    align-items: center;
+    display: flex;
+    font-size: .9rem;
+    margin-top: 3rem;
+    justify-content: center;
+    width: 100%;
+  }
+
+    .bg-url {
+      background-color: #fff;
+      margin-left: .5rem;
+      padding: .8rem 1rem;
+    }
+
+      .bg-url a {
+        color: #6cc8db;
+      }
+
+  /* Styling of code snippet inside article */
+
+  .bg-code-snippet {
+    margin-bottom: 3rem;
+  }
+
+    .bg-code-snippet label {
+      color: #AAA;
+      cursor: pointer;
+      font-size: .8rem;
+      display: inline-block;
+      padding: .5rem;
+    }
+
+    .bg-code-snippet input {
+      display: none;
+    }
+
+    .console {
+      background-color: #fff;
+      display: none;
+      height: 140px;
+      padding: 2rem 0 0 2rem;
+    }
+
+      .js-code {
+        display: inline-block;
+        padding: .3rem 0;
+      }
+
+      .js-code-keyword {
+        color: #FF851B;
+      }
+
+      .js-code-var-name {
+        color: #1E90FF;
+      }
+
+      .js-code-number {
+        color: #FF4136;
+      }
+
+      .js-code-function {
+        color: #9B30FF ;      
+      }
+
+      .js-code-comment-and-line-number {
+        color: #AAA;
+      }
+
+    .bg-code-snippet input:checked + label {
+      color: #6cc8db;
+      border-bottom: 3px solid #6cc8db;
+    }
+
+    .bg-code-snippet input:not(:checked) + label:hover {
+      color: #4f565e;
+    }
+
+    .bg-code-snippet input:first-of-type:checked ~ .console:first-of-type,
+    .bg-code-snippet input:nth-of-type(2):checked ~ .console:nth-of-type(2) {
+      display: block;
+    }
+
+    .bg-code-snippet-description {
+      padding-left: 1rem;
+      font-size: .85rem;
+    }
+
+/*User profile pic placeholder-ish thing*/
+.lf-author-profile-pic {
+  width: 40px;
+  height: 40px;
+  padding: 25px;
+  border-radius: 50%;
+}
+
+.lf-comment-user-profile-pic {
+  width: 40px;
+  height: 40px;
+  padding: 25px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-right: 1.3em;
+}
+
+.bg-comment-section h2 {
+  text-align: center;
+  font-weight: 400;
+  margin: 15px 0;
+  font-size: 22px;
+}
+
+.lf-comment {
+  display: flex;
+  padding: 1.5em 0;
+  border-top: 1px solid #bbb;
+}
+
+.bg-user-name {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.bg-comment-date {
+  font-size: 12px;
+  color: #8b9496;
+  letter-spacing: 0.5px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.bg-comment-date .material-icons {
+  font-size: 14px;
+  font-weight: bold;
+  color: #b8c6c7;
+  margin-right: 5px;
+}
+
+.lf-comment-info__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bg-comment-subject h3 {
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.75px;
+}
+
+.bg-comment-content {
+  font-weight: 400;
+  color: #72757e;
+  line-height: 27px;
+  margin-top: -10px;
+}
+
+.lf-comment-info__buttons {
+  display: flex;
+  justify-content: space-between;
+  letter-spacing: 2px;
+  font-size: 11px;
+  color: #8b9496;
+}
+
+.lf-comment-info__reply {
+  display: flex;
+  align-items: center;
+}
+
+.bg-comment-info__show_replies:hover,
+.lf-comment-info__reply:hover {
+  color: #4f565e;
+  cursor: pointer;
+}
+
+.lf-comment-info__reply .material-icons {
+  font-size: 13px;
+  font-weight: bold;
+  color: #b8c6c7;
+  margin-right: 10px;
+}
+
+.lf-comment-info__replies {
+  background-color: #6cc8db;
+  color: #fff;
+  padding: 3px 7px;
+  border-radius: 4px;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.lf-comment-inline {
+  margin-left: 4em;
+}
+
+.lf-comment-inline .bg-comment-content {
+  margin-top: 0;
+}
+
+.bg-add-comment h3 {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  padding: 20px 0 15px 0;
+  border-top: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+}
+
+.lf-add-comment__form {
+  display: flex;
+  margin-top: 20px;
+}
+
+.lf-add-comment-user-profile-pic {
+  width: 40px;
+  height: 40px;
+  padding: 25px;
+  border-radius: 50%;
+  margin-right: 2em;
+}
+
+.bg-comment-form {
+  width: 100%;
+}
+
+.lf-comment-form__input, .lf-comment-form__textarea {
+  width: 100%;
+}
+
+.lf-comment-form__input, .lf-comment-form__textarea {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  width: 100%;
+  background-color: #f2f5f7;
+  border: none;
+  border-top: 2px solid #e6edf5;
+  border-radius: 4px;
+  font-size: 14px;
+  padding: 12px;
+}
+
+.lf-comment-form__input:focus, .lf-comment-form__textarea:focus {
+  outline: none;
+  border: 1px solid #6cc8db;
+}
+
+.lf-comment-form__textarea {
+  margin-top: 20px;
+}
+
+.lf-comment-form__button {
+  background-color: #6cc8db;
+  color: #fff;
+  padding: 12px;
+  border-radius: 20px;
+  margin: 0 auto;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  width: 25%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.lf-comment-form__button:hover {
+  cursor: pointer;
+  background-color: #3da7bd;
+}
+
+/*Preview buttons on the Read Next Post article*/
+
+.bg-article-preview__buttons {
+  background-color: pink;
+  color: #4f565e;
+  display: flex;
+  margin-top: 50px;
+  background-color: #e6eaef;
+}
+
+.bg-article-preview__more, 
+.bg-article-preview__goto {
+  display: flex;
+  align-items: center;
+  padding: 8px 10px;
+  height: 38px;
+  border: 2px solid #c9cfd7;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.bg-article-preview__more:hover, 
+.bg-article-preview__goto:hover {
+  background-color: #c9cfd7;
+}
+
+.bg-article-preview__goto {
+  margin-left: 40px;
+}
+  
+  .bg-article-preview__more .material-icons,
+  .bg-article-preview__goto .material-icons {
+    font-size: 22px;
+    margin-top: -1px;
+  }
+
+  .bg-article-preview__more span,
+  .bg-article-preview__goto span {
+    margin-left: 7px;
+    font-weight: 700;
+  }
+
+
+/*Tablet styles (not important - leave for the end)*/
+
+@media all and (max-width: 768px) {
+  .bg-content-wrap {
+    width: 90%;
+  }
+
+  .lf-comment-form__button {
+    width: 100%;
+  }
+}
+
+/*Mobile styles (work on this after desktop)*/
+
+@media all and (max-width: 360px) {
+  
+  h1 {
+    margin-top: 40px;
+  }
+
+  .col-1, .col-11 {
+    width: 100%;
+  }
+
+  .bg-content-wrap {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: -50px auto 0;
+    width: 90%;
+  }
+
+    .bg-shadow {
+      margin: 0 auto;
+      height: 150px;
+      width: 100%;
+    }
+
+    .bg-article-section {
+      align-items: center;
+      flex-direction: column;
+      padding: 15px;
+    }  
+
+      .bg-article-date {
+        align-self: center;
+        border-right: none;
+        border-bottom: 1px solid #aaa;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        width: 70%;
+        margin-right: 0;
+        padding: 10px 20px 20px;
+      }
+
+     .console {
+        padding: 1rem;
+      }
+
+  .bg-author-profile {
+    padding: 20px;
+  }
+
+  .lf-author-profile-pic {
+    height: 15px;
+    width: 15px;
+    padding: 15px;
+  }
+  
+  .lf-add-comment-user-profile-pic {
+    display: none;
+  }
+
+  .bg-background-image-text {
+    font-size: 1rem;
+    top: 20px;
+  }
+
+  .bg-article-preview__more, 
+  .bg-article-preview__goto {
+    height: 55px;
+  }
+}

@@ -1,0 +1,976 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700|Roboto+Slab::100,300,400" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="../icomoon/style.css">
+
+  <link rel="stylesheet" href="../single-post/single-post.css">
+  <link rel="stylesheet" href="../header-footer/header-footer.css">
+  <link rel="stylesheet" href="../archive/archive.css">
+  <link rel="stylesheet" href="home.css">
+  <link rel="icon" type="image/x-icon" href="../images/favicon.png">
+</head>
+
+<body>
+  <!-- Add a jr-header-home class for display -->
+
+  <header class="jr-header jr-header-home">
+      <!--  Header logo  -->
+      <div class="jr-header__logo jr-header__col">
+        <a href="#"><img class="jr-header__logo__img" src="../images/BovAcademy_logo_head.png"></a>
+        <div class="jr-header__logo__txt">
+          <p class="jr-header__logo__txt--top">
+            <strong>Bov</strong> Academy <strong>Blog</strong>
+          </p>
+          <p class="jr-header__logo__txt--btm">of Programming and Futuristic Engineering</p>
+        </div>
+      </div>
+
+      <!--  Header menu  -->
+      <div class="jr-header__menu jr-header__col">
+        <ul class="jr-menu jr-menu--header">
+          <li class="jr-menu__item jr-menu__item--header">
+            <a href="../home/home.html">Latest<span class="mobile-hidden"> Posts</span></a>
+          </li>
+          <li class="jr-menu__item jr-menu__item--header">
+            <a href="../upcoming-post/upcoming-post.html">Upcoming<span class="mobile-hidden"> Posts</span></a>
+          </li>
+          <li class="jr-menu__item jr-menu__item--header">
+            <a href="../archive/archive.html">Archive</a>
+          </li>
+        </ul>
+      </div>
+
+      <!--  Header dropdown  -->
+      <div class="jr-header__dropdown jr-header__col">
+        <!-- <input type="radio" id="dropdown-checkbox"> -->
+        <div class="jr-header__dropdown__wrapper">
+          <div class="jr-header__dropdown__img">
+            <!-- First row -->
+            <div class="dots-row dots-row-1">
+              <span class="dot" id="blue"></span>
+              <span class="dot" id="green"></span>
+              <span class="dot" id="red"></span>
+            </div>
+            <!-- Second row -->
+            <div class="dots-row dots-row-1">
+              <span class="dot" id="pink"></span>
+              <span class="dot" id="purple"></span>
+              <span class="dot" id="l-green"></span>
+            </div>
+            <!-- Third row -->
+            <div class="dots-row dots-row-1">
+              <span class="dot" id="yellow"></span>
+              <span class="dot" id="orange"></span>
+              <span class="dot" id="l-blue"></span>
+            </div>
+          </div>
+          <span class="material-icons">arrow_drop_down</span>
+        </div>
+
+        <!-- dropdown list will go here-->
+      </div>
+    </header>
+
+    <!-- Subscribe Button -->
+    <div class="lf-subscribe">
+      <div class="lf-subscribe__element" id="lf-subscribe__element-title" >Blog's Newsletter <a class="lf-subscribe-close" href="#" onclick="closeSubscribe()"><i class="material-icons">close</i></a></div>
+        <form>
+          <div id="lf-subscribe__element-firstname"><input type="text" placeholder="First Name"></div>
+          <div id="lf-subscribe__element-email"><input type="text" placeholder="Email"></div>
+        </form>
+      <div id="lf-subscribe__element-teaser" onclick="openSubscribe()" >Subscribe</div>
+    </div>
+    <!-- End Subscribe Button -->
+
+  <div class="container">
+    <div class="content-wrap">
+      <div class="search-wrap">
+        <label class="search-main__label" for="searchMain"><i class="material-icons">search</i></label>
+        <input id="searchMain" class="search-main__input" type="text" placeholder="Search">
+      </div>
+      <section class="jt-article-preview">
+        <div class="jt-article-preview__bg-wrap">
+          <div class="jt-article-preview__bg-overlay"></div>
+          <img class="jt-article-preview__bg" src="../images/article-img1.jpg" alt="">
+        </div>
+        <div class="jt-article-preview__content-wrap">
+          <div class="jt-article-preview__shadow"></div>
+          <div class="jt-article-preview__content">
+            <div class="jt-gradient-sp"></div>
+            <div class="jt-article-preview__btn-compress"><i class="material-icons">vertical_align_center</i></div>
+            <div class="jt-article-preview__text-wrap">
+              <section class="bg-article-section">
+
+                <div class="bg-article-date col-1">
+                  <span class="bg-article-day">26</span>
+                  <span class="bg-article-month bg-uppercase">jun</span>
+                </div>
+
+                <div class="article-wrap col-11">
+
+                  <div class="bg-author-profile bg-uppercase">
+
+                    <div class="lf-author-profile-pic" style="background: url(../images/avatar_5.jpg) center; background-size: cover;"></div>
+
+                    <div class="bg-author-name-wrap">
+                      <span class="bg-author">Author:</span>
+                      <span class="bg-author-name">Jill Stephanson</span>
+                    </div>
+
+                  </div>
+
+                  <article class="bg-article">
+
+                    <header>
+                      <h1>Artificial Intelligence Is the Future</h1>
+                    </header>
+
+                    <p class="bg-article-p">Photographs are a way of preserving a moment in our lives for the rest of our lives. Many of us have at least been tempted at the flashy array of photo printers which seemingly leap off the shelves at even the least tech-savvy. It surely seems old fashioned to talk about 35mm film and non-digital cameras in today's day and age.</p>
+
+                    <p class="bg-article-p">Enter Cloudinary: uploading, storing, manipulating, and delivering images and videos on the web.</p>
+
+                    <header>
+                      <h2>Using Cloudinary</h2>
+                    </header>
+
+                    <p class="bg-article-p">There are many use cases for a service like Cloudinary. When I think about my site, I see one obvious need: resized, optimized images on post list pages. Google PageSpeed crucifies my site for image size and I can't blame them: I have a regex routine that searches for the first image in a post and uses that as the post image, but the routine doesn't optimize images, so if the image is very large, I may scale it down with HTML attributes but the download size is still massive.</p>
+
+                    <div class="bg-code-snippet">
+
+                      <input id="input-js" type="radio" name="js-console" checked>
+                      <label class="bg-uppercase" for="input-js">JavaScript</label>
+                      <input id="display-result" type="radio" name="js-console">
+                      <label class="bg-uppercase" for="display-result">Result</label>
+
+                      <div class="console">
+                        <span class="js-code"><span class="js-code-comment-and-line-number">1</span> &nbsp;<span class="js-code-keyword">var</span> <span class="js-code-var-name">myArray</span> = [<span class="js-code-number">6</span>, <span class="js-code-number">5</span>, <span class="js-code-number">4</span>, <span class="js-code-number">3</span>, <span class="js-code-number">1</span>, <span class="js-code-number">2</span>];</span>
+                        <br>
+                        <span class="js-code"><span class="js-code-comment-and-line-number">2</span> &nbsp;<span class="js-code-var-name">myArray</span>.<span class="js-code-function">sort</span>();</span>
+                        <br>
+                        <span class="js-code"><span class="js-code-comment-and-line-number">3</span> &nbsp;<span class="js-code-keyword">console</span>.<span class="js-code-function">log</span> (<span class="js-code-var-name">myArray</span>); <span class="js-code-comment-and-line-number">// -> 1, 2, 3, 4, 5, 6</span></span>
+                      </div>
+                      <div class="console"><span><em>> 1, 2, 3, 4, 5, 6</em></span></div>
+
+                      <p class="bg-code-snippet-description">Briefly explain the code example here.</p>
+                    </div>
+
+                    <p class="bg-article-p">If you're looking to serve media via the &lt;picture&gt; element for different media queries, Cloudinary has an excellent structure for doing that as well.</p>
+
+                    <p class="bg-article-p">Hosting your videos with Cloudinary will allow you to have the same advantages of manipulation and performant cloud hosting as your images will have!</p>
+
+                    <header>
+                      <h2>Try Cloudinary</h2>
+                    </header>
+
+                    <p class="bg-article-p">Cloudinary is an awesome one-stop shop for uploading, storing, manipulating and delivering images and video. The APIs are intuitive, effective and easy-to-use. The optimization plugs are all useful and the included face detection, sepia/greyscale transformations, and social media image creation is a huge, handy bonus.</p>
+
+                  </article>
+
+                  <div class="bg-link">
+                    <label for="">Link:</label>
+                    <div class="bg-url">
+                      <a href="#">http://blog.bovacademy.com</a>
+                    </div>
+                  </div>
+
+                </div> <!-- Close div.article-wrap -->
+
+              </section>
+
+              <!--Horizontal line between sections-->
+              <hr>
+
+              <!--Comment section-->
+              <section class="bg-comment-section">
+
+                <header>
+                  <h2>Comments</h2>
+                </header>
+
+                <!--Comments-->
+                <div class="bg-comments">
+
+                  <!-- Comment 1 -->
+                  <div class="bg-main-comment">
+
+                    <div class="lf-comment">
+                      <div class="lf-comment-user-profile-pic" style="background: url(../images/avatar_1.jpg) center; background-size: cover;"></div>
+
+                      <div class="bg-comment-info">
+                        <div class="lf-comment-info__header">
+                          <div class="bg-user-name bg-uppercase">
+                            <span>Vladimir Babic</span>
+                          </div>
+                          <div class="bg-comment-date">
+                            <i class="material-icons">access_time</i>
+                            <span>June 11, 2014 9:26 pm</span>
+                          </div>
+                        </div>
+
+                        <div class="lf-comment-info__content">
+                          <div class="bg-comment-subject">
+                            <header>
+                              <h3>This is the subject of the comment below</h3>
+                            </header>
+                          </div>
+                          <div class="bg-comment-content">
+                            <p class="bg-comment-p">Unlike pop-culture's current obsession with bleak, heavy drama (Game of Thrones, Breaking Bad, we're talking to you)</p>
+                          </div>
+                        </div>
+
+                        <div class="lf-comment-info__buttons">
+                          <div class="lf-comment-info__reply">
+                            <i class="material-icons">chat_bubble_outline</i>
+                            <a href="#" class="bg-uppercase">Reply</a>
+                          </div>
+                          <div class="bg-comment-info__show_replies">
+                            <a href="#" class="bg-uppercase">Show Replies</a><span class="lf-comment-info__replies">12</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="bg-main-comment">
+
+                    <div class="lf-comment">
+                      <div class="lf-comment-user-profile-pic" style="background: url(../images/avatar_2.jpeg) center; background-size: cover;">
+                      </div>
+
+                      <div class="bg-comment-info">
+                        <div class="lf-comment-info__header">
+                          <div class="bg-user-name bg-uppercase">
+                            <span>Ana York</span>
+                          </div>
+                          <div class="bg-comment-date">
+                            <i class="material-icons">access_time</i>
+                            <span>June 11, 2014 9:26 pm</span>
+                          </div>
+                        </div>
+
+                        <div class="lf-comment-info__content">
+                          <div class="bg-comment-subject">
+                            <header>
+                              <h3>This is the subject of the comment below</h3>
+                            </header>
+                          </div>
+                          <div class="bg-comment-content">
+                            <p class="bg-comment-p">Together upon form divide good fowl Our heaven whose midst multiply thing under under fifth have signs man night they're also saying, made.
+
+                              Is for. Under set you're darkness creature us, is signs saying his darkness moving likeness above seas form herb herb, to fruit green heaven second set creature green a our. Image is. Which Saw fruit may deep.</p>
+                          </div>
+                        </div>
+
+                        <div class="lf-comment-info__buttons">
+                          <div class="lf-comment-info__reply">
+                            <i class="material-icons">chat_bubble_outline</i>
+                            <a href="#" class="bg-uppercase">Reply</a>
+                          </div>
+                          <div class="bg-comment-info__show_replies">
+                            <a href="#" class="bg-uppercase">Hide Replies</a><span class="lf-comment-info__replies">1</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="lf-comment-inline">
+                      <div class="lf-comment">
+                        <div class="lf-comment-user-profile-pic" style="background: url(../images/avatar_3.jpg) center; background-size: cover;">
+                        </div>
+
+                        <div class="bg-comment-info">
+                          <div class="lf-comment-info__header">
+                            <div class="bg-user-name bg-uppercase">
+                              <span>Alexei Rybin</span>
+                            </div>
+                            <div class="bg-comment-date">
+                              <i class="material-icons">access_time</i>
+                              <span>June 11, 2014 9:26 pm</span>
+                            </div>
+                          </div>
+
+                          <div class="lf-comment-info__content">
+                            <div class="bg-comment-content">
+                              <p class="bg-comment-p">Void and brought don't gathered. Appear yielding whose creeping him Heaven life have. So us spirit. Signs that lights lesser gathered for sixth Firmament brought fowl brought air fowl Stars abundantly seasons he the said. Very great. For. Brought evening.</p>
+                            </div>
+                          </div>
+
+                          <div class="lf-comment-info__buttons">
+                            <div class="lf-comment-info__reply">
+                              <i class="material-icons">chat_bubble_outline</i>
+                              <a href="#" class="bg-uppercase">Reply</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>  <!-- Close div.bg-comments -->
+
+                <!--Add comment box-->
+                <div class="bg-add-comment">
+                  <header>
+                    <h3 class="bg-uppercase">Add Comment</h3>
+                  </header>
+
+                  <div class="lf-add-comment__form">
+                    <div class="lf-add-comment-user-profile-pic" style="background: url(../images/avatar_4.jpeg) center; background-size: cover;"></div>
+
+                    <div class="bg-comment-form">
+                      <form action="">
+                        <input class="lf-comment-form__input" type="text" placeholder="Enter a subject">
+                        <textarea class="lf-comment-form__textarea" name="" id="" cols="30" rows="10" placeholder="Write your comment..."></textarea>
+                        <a href="#">
+                          <div class="lf-comment-form__button bg-uppercase">Add Comment</div>
+                        </a>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+
+              </section>
+            </div>
+          </div>
+          <div class="jt-article-preview__buttons">
+            <div class="jt-article-preview__more">
+              <i class="material-icons">format_line_spacing</i>
+              <span>Quick Read</span>
+            </div>
+            <div class="jt-article-preview__goto">
+              <i class="material-icons">open_in_browser</i>
+              <span><a href="../single-post/single-post.html">Go to post</a></span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="jt-article-preview">
+        <div class="jt-article-preview__bg-wrap">
+          <div class="jt-article-preview__bg-overlay"></div>
+          <img class="jt-article-preview__bg" src="../images/article-img2.jpg" alt="">
+        </div>
+        <div class="jt-article-preview__content-wrap">
+          <div class="jt-article-preview__shadow"></div>
+          <div class="jt-article-preview__content">
+            <div class="jt-gradient-sp"></div>
+            <div class="jt-article-preview__btn-compress"><i class="material-icons">vertical_align_center</i></div>
+            <div class="ht-article-preview__text-wrap">
+              <section class="bg-article-section">
+
+                <div class="bg-article-date col-1">
+                  <span class="bg-article-day">26</span>
+                  <span class="bg-article-month bg-uppercase">jun</span>
+                </div>
+
+                <div class="article-wrap col-11">
+
+                  <div class="bg-author-profile bg-uppercase">
+
+                    <div class="lf-author-profile-pic" style="background: url(../images/avatar_5.jpg) center; background-size: cover;"></div>
+
+                    <div class="bg-author-name-wrap">
+                      <span class="bg-author">Author:</span>
+                      <span class="bg-author-name">Jill Stephanson</span>
+                    </div>
+
+                  </div>
+
+                  <article class="bg-article">
+
+                    <header>
+                      <h1>Artificial Intelligence Is the Future</h1>
+                    </header>
+
+                    <p class="bg-article-p">Photographs are a way of preserving a moment in our lives for the rest of our lives. Many of us have at least been tempted at the flashy array of photo printers which seemingly leap off the shelves at even the least tech-savvy. It surely seems old fashioned to talk about 35mm film and non-digital cameras in today's day and age.</p>
+
+                    <p class="bg-article-p">Enter Cloudinary: uploading, storing, manipulating, and delivering images and videos on the web.</p>
+
+                    <header>
+                      <h2>Using Cloudinary</h2>
+                    </header>
+
+                    <p class="bg-article-p">There are many use cases for a service like Cloudinary. When I think about my site, I see one obvious need: resized, optimized images on post list pages. Google PageSpeed crucifies my site for image size and I can't blame them: I have a regex routine that searches for the first image in a post and uses that as the post image, but the routine doesn't optimize images, so if the image is very large, I may scale it down with HTML attributes but the download size is still massive.</p>
+
+                    <div class="bg-code-snippet">
+
+                      <input id="input-js" type="radio" name="js-console" checked>
+                      <label class="bg-uppercase" for="input-js">JavaScript</label>
+                      <input id="display-result" type="radio" name="js-console">
+                      <label class="bg-uppercase" for="display-result">Result</label>
+
+                      <div class="console">
+                        <span class="js-code"><span class="js-code-comment-and-line-number">1</span> &nbsp;<span class="js-code-keyword">var</span> <span class="js-code-var-name">myArray</span> = [<span class="js-code-number">6</span>, <span class="js-code-number">5</span>, <span class="js-code-number">4</span>, <span class="js-code-number">3</span>, <span class="js-code-number">1</span>, <span class="js-code-number">2</span>];</span>
+                        <br>
+                        <span class="js-code"><span class="js-code-comment-and-line-number">2</span> &nbsp;<span class="js-code-var-name">myArray</span>.<span class="js-code-function">sort</span>();</span>
+                        <br>
+                        <span class="js-code"><span class="js-code-comment-and-line-number">3</span> &nbsp;<span class="js-code-keyword">console</span>.<span class="js-code-function">log</span> (<span class="js-code-var-name">myArray</span>); <span class="js-code-comment-and-line-number">// -> 1, 2, 3, 4, 5, 6</span></span>
+                      </div>
+                      <div class="console"><span><em>> 1, 2, 3, 4, 5, 6</em></span></div>
+
+                      <p class="bg-code-snippet-description">Briefly explain the code example here.</p>
+                    </div>
+
+                    <p class="bg-article-p">If you're looking to serve media via the &lt;picture&gt; element for different media queries, Cloudinary has an excellent structure for doing that as well.</p>
+
+                    <p class="bg-article-p">Hosting your videos with Cloudinary will allow you to have the same advantages of manipulation and performant cloud hosting as your images will have!</p>
+
+                    <header>
+                      <h2>Try Cloudinary</h2>
+                    </header>
+
+                    <p class="bg-article-p">Cloudinary is an awesome one-stop shop for uploading, storing, manipulating and delivering images and video. The APIs are intuitive, effective and easy-to-use. The optimization plugs are all useful and the included face detection, sepia/greyscale transformations, and social media image creation is a huge, handy bonus.</p>
+
+                  </article>
+
+                  <div class="bg-link">
+                    <label for="">Link:</label>
+                    <div class="bg-url">
+                      <a href="#">http://blog.bovacademy.com</a>
+                    </div>
+                  </div>
+
+                </div> <!-- Close div.article-wrap -->
+
+              </section>
+
+              <!--Horizontal line between sections-->
+              <hr>
+
+              <!--Comment section-->
+              <section class="bg-comment-section">
+
+                <header>
+                  <h2>Comments</h2>
+                </header>
+
+                <!--Comments-->
+                <div class="bg-comments">
+
+                  <!-- Comment 1 -->
+                  <div class="bg-main-comment">
+
+                    <div class="lf-comment">
+                      <div class="lf-comment-user-profile-pic" style="background: url(../images/avatar_1.jpg) center; background-size: cover;"></div>
+
+                      <div class="bg-comment-info">
+                        <div class="lf-comment-info__header">
+                          <div class="bg-user-name bg-uppercase">
+                            <span>Vladimir Babic</span>
+                          </div>
+                          <div class="bg-comment-date">
+                            <i class="material-icons">access_time</i>
+                            <span>June 11, 2014 9:26 pm</span>
+                          </div>
+                        </div>
+
+                        <div class="lf-comment-info__content">
+                          <div class="bg-comment-subject">
+                            <header>
+                              <h3>This is the subject of the comment below</h3>
+                            </header>
+                          </div>
+                          <div class="bg-comment-content">
+                            <p class="bg-comment-p">Unlike pop-culture's current obsession with bleak, heavy drama (Game of Thrones, Breaking Bad, we're talking to you)</p>
+                          </div>
+                        </div>
+
+                        <div class="lf-comment-info__buttons">
+                          <div class="lf-comment-info__reply">
+                            <i class="material-icons">chat_bubble_outline</i>
+                            <a href="#" class="bg-uppercase">Reply</a>
+                          </div>
+                          <div class="bg-comment-info__show_replies">
+                            <a href="#" class="bg-uppercase">Show Replies</a><span class="lf-comment-info__replies">12</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="bg-main-comment">
+
+                    <div class="lf-comment">
+                      <div class="lf-comment-user-profile-pic" style="background: url(../images/avatar_2.jpeg) center; background-size: cover;">
+                      </div>
+
+                      <div class="bg-comment-info">
+                        <div class="lf-comment-info__header">
+                          <div class="bg-user-name bg-uppercase">
+                            <span>Ana York</span>
+                          </div>
+                          <div class="bg-comment-date">
+                            <i class="material-icons">access_time</i>
+                            <span>June 11, 2014 9:26 pm</span>
+                          </div>
+                        </div>
+
+                        <div class="lf-comment-info__content">
+                          <div class="bg-comment-subject">
+                            <header>
+                              <h3>This is the subject of the comment below</h3>
+                            </header>
+                          </div>
+                          <div class="bg-comment-content">
+                            <p class="bg-comment-p">Together upon form divide good fowl Our heaven whose midst multiply thing under under fifth have signs man night they're also saying, made.
+
+                              Is for. Under set you're darkness creature us, is signs saying his darkness moving likeness above seas form herb herb, to fruit green heaven second set creature green a our. Image is. Which Saw fruit may deep.</p>
+                          </div>
+                        </div>
+
+                        <div class="lf-comment-info__buttons">
+                          <div class="lf-comment-info__reply">
+                            <i class="material-icons">chat_bubble_outline</i>
+                            <a href="#" class="bg-uppercase">Reply</a>
+                          </div>
+                          <div class="bg-comment-info__show_replies">
+                            <a href="#" class="bg-uppercase">Hide Replies</a><span class="lf-comment-info__replies">1</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="lf-comment-inline">
+                      <div class="lf-comment">
+                        <div class="lf-comment-user-profile-pic" style="background: url(../images/avatar_3.jpg) center; background-size: cover;">
+                        </div>
+
+                        <div class="bg-comment-info">
+                          <div class="lf-comment-info__header">
+                            <div class="bg-user-name bg-uppercase">
+                              <span>Alexei Rybin</span>
+                            </div>
+                            <div class="bg-comment-date">
+                              <i class="material-icons">access_time</i>
+                              <span>June 11, 2014 9:26 pm</span>
+                            </div>
+                          </div>
+
+                          <div class="lf-comment-info__content">
+                            <div class="bg-comment-content">
+                              <p class="bg-comment-p">Void and brought don't gathered. Appear yielding whose creeping him Heaven life have. So us spirit. Signs that lights lesser gathered for sixth Firmament brought fowl brought air fowl Stars abundantly seasons he the said. Very great. For. Brought evening.</p>
+                            </div>
+                          </div>
+
+                          <div class="lf-comment-info__buttons">
+                            <div class="lf-comment-info__reply">
+                              <i class="material-icons">chat_bubble_outline</i>
+                              <a href="#" class="bg-uppercase">Reply</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>  <!-- Close div.bg-comments -->
+
+                <!--Add comment box-->
+                <div class="bg-add-comment">
+                  <header>
+                    <h3 class="bg-uppercase">Add Comment</h3>
+                  </header>
+
+                  <div class="lf-add-comment__form">
+                    <div class="lf-add-comment-user-profile-pic" style="background: url(../images/avatar_4.jpeg) center; background-size: cover;"></div>
+
+                    <div class="bg-comment-form">
+                      <form action="">
+                        <input class="lf-comment-form__input" type="text" placeholder="Enter a subject">
+                        <textarea class="lf-comment-form__textarea" name="" id="" cols="30" rows="10" placeholder="Write your comment..."></textarea>
+                        <a href="#">
+                          <div class="lf-comment-form__button bg-uppercase">Add Comment</div>
+                        </a>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+
+              </section>
+            </div>
+          </div>
+          <div class="jt-article-preview__buttons">
+            <div class="jt-article-preview__more">
+              <i class="material-icons">format_line_spacing</i>
+              <span>Quick Read</span>
+            </div>
+            <div class="jt-article-preview__goto">
+              <i class="material-icons">open_in_browser</i>
+              <span><a href="../single-post/single-post.html">Go to post</a></span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="jt-article-preview">
+        <div class="jt-article-preview__bg-wrap">
+          <div class="jt-article-preview__bg-overlay"></div>
+          <img class="jt-article-preview__bg" src="../images/article-img1.jpg" alt="">
+        </div>
+        <div class="jt-article-preview__content-wrap">
+          <div class="jt-article-preview__shadow"></div>
+          <div class="jt-article-preview__content">
+            <div class="jt-gradient-sp"></div>
+            <div class="jt-article-preview__btn-compress"><i class="material-icons">vertical_align_center</i></div>
+            <div class="jt-article-preview__text-wrap">
+              <section class="bg-article-section">
+
+                <div class="bg-article-date col-1">
+                  <span class="bg-article-day">26</span>
+                  <span class="bg-article-month bg-uppercase">jun</span>
+                </div>
+
+                <div class="article-wrap col-11">
+
+                  <div class="bg-author-profile bg-uppercase">
+
+                    <div class="lf-author-profile-pic" style="background: url(../images/avatar_5.jpg) center; background-size: cover;"></div>
+
+                    <div class="bg-author-name-wrap">
+                      <span class="bg-author">Author:</span>
+                      <span class="bg-author-name">Jill Stephanson</span>
+                    </div>
+
+                  </div>
+
+                  <article class="bg-article">
+
+                    <header>
+                      <h1>Artificial Intelligence Is the Future</h1>
+                    </header>
+
+                    <p class="bg-article-p">Photographs are a way of preserving a moment in our lives for the rest of our lives. Many of us have at least been tempted at the flashy array of photo printers which seemingly leap off the shelves at even the least tech-savvy. It surely seems old fashioned to talk about 35mm film and non-digital cameras in today's day and age.</p>
+
+                    <p class="bg-article-p">Enter Cloudinary: uploading, storing, manipulating, and delivering images and videos on the web.</p>
+
+                    <header>
+                      <h2>Using Cloudinary</h2>
+                    </header>
+
+                    <p class="bg-article-p">There are many use cases for a service like Cloudinary. When I think about my site, I see one obvious need: resized, optimized images on post list pages. Google PageSpeed crucifies my site for image size and I can't blame them: I have a regex routine that searches for the first image in a post and uses that as the post image, but the routine doesn't optimize images, so if the image is very large, I may scale it down with HTML attributes but the download size is still massive.</p>
+
+                    <div class="bg-code-snippet">
+
+                      <input id="input-js" type="radio" name="js-console" checked>
+                      <label class="bg-uppercase" for="input-js">JavaScript</label>
+                      <input id="display-result" type="radio" name="js-console">
+                      <label class="bg-uppercase" for="display-result">Result</label>
+
+                      <div class="console">
+                        <span class="js-code"><span class="js-code-comment-and-line-number">1</span> &nbsp;<span class="js-code-keyword">var</span> <span class="js-code-var-name">myArray</span> = [<span class="js-code-number">6</span>, <span class="js-code-number">5</span>, <span class="js-code-number">4</span>, <span class="js-code-number">3</span>, <span class="js-code-number">1</span>, <span class="js-code-number">2</span>];</span>
+                        <br>
+                        <span class="js-code"><span class="js-code-comment-and-line-number">2</span> &nbsp;<span class="js-code-var-name">myArray</span>.<span class="js-code-function">sort</span>();</span>
+                        <br>
+                        <span class="js-code"><span class="js-code-comment-and-line-number">3</span> &nbsp;<span class="js-code-keyword">console</span>.<span class="js-code-function">log</span> (<span class="js-code-var-name">myArray</span>); <span class="js-code-comment-and-line-number">// -> 1, 2, 3, 4, 5, 6</span></span>
+                      </div>
+                      <div class="console"><span><em>> 1, 2, 3, 4, 5, 6</em></span></div>
+
+                      <p class="bg-code-snippet-description">Briefly explain the code example here.</p>
+                    </div>
+
+                    <p class="bg-article-p">If you're looking to serve media via the &lt;picture&gt; element for different media queries, Cloudinary has an excellent structure for doing that as well.</p>
+
+                    <p class="bg-article-p">Hosting your videos with Cloudinary will allow you to have the same advantages of manipulation and performant cloud hosting as your images will have!</p>
+
+                    <header>
+                      <h2>Try Cloudinary</h2>
+                    </header>
+
+                    <p class="bg-article-p">Cloudinary is an awesome one-stop shop for uploading, storing, manipulating and delivering images and video. The APIs are intuitive, effective and easy-to-use. The optimization plugs are all useful and the included face detection, sepia/greyscale transformations, and social media image creation is a huge, handy bonus.</p>
+
+                  </article>
+
+                  <div class="bg-link">
+                    <label for="">Link:</label>
+                    <div class="bg-url">
+                      <a href="#">http://blog.bovacademy.com</a>
+                    </div>
+                  </div>
+
+                </div> <!-- Close div.article-wrap -->
+
+              </section>
+
+              <!--Horizontal line between sections-->
+              <hr>
+
+              <!--Comment section-->
+              <section class="bg-comment-section">
+
+                <header>
+                  <h2>Comments</h2>
+                </header>
+
+                <!--Comments-->
+                <div class="bg-comments">
+
+                  <!-- Comment 1 -->
+                  <div class="bg-main-comment">
+
+                    <div class="lf-comment">
+                      <div class="lf-comment-user-profile-pic" style="background: url(../images/avatar_1.jpg) center; background-size: cover;"></div>
+
+                      <div class="bg-comment-info">
+                        <div class="lf-comment-info__header">
+                          <div class="bg-user-name bg-uppercase">
+                            <span>Vladimir Babic</span>
+                          </div>
+                          <div class="bg-comment-date">
+                            <i class="material-icons">access_time</i>
+                            <span>June 11, 2014 9:26 pm</span>
+                          </div>
+                        </div>
+
+                        <div class="lf-comment-info__content">
+                          <div class="bg-comment-subject">
+                            <header>
+                              <h3>This is the subject of the comment below</h3>
+                            </header>
+                          </div>
+                          <div class="bg-comment-content">
+                            <p class="bg-comment-p">Unlike pop-culture's current obsession with bleak, heavy drama (Game of Thrones, Breaking Bad, we're talking to you)</p>
+                          </div>
+                        </div>
+
+                        <div class="lf-comment-info__buttons">
+                          <div class="lf-comment-info__reply">
+                            <i class="material-icons">chat_bubble_outline</i>
+                            <a href="#" class="bg-uppercase">Reply</a>
+                          </div>
+                          <div class="bg-comment-info__show_replies">
+                            <a href="#" class="bg-uppercase">Show Replies</a><span class="lf-comment-info__replies">12</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="bg-main-comment">
+
+                    <div class="lf-comment">
+                      <div class="lf-comment-user-profile-pic" style="background: url(../images/avatar_2.jpeg) center; background-size: cover;">
+                      </div>
+
+                      <div class="bg-comment-info">
+                        <div class="lf-comment-info__header">
+                          <div class="bg-user-name bg-uppercase">
+                            <span>Ana York</span>
+                          </div>
+                          <div class="bg-comment-date">
+                            <i class="material-icons">access_time</i>
+                            <span>June 11, 2014 9:26 pm</span>
+                          </div>
+                        </div>
+
+                        <div class="lf-comment-info__content">
+                          <div class="bg-comment-subject">
+                            <header>
+                              <h3>This is the subject of the comment below</h3>
+                            </header>
+                          </div>
+                          <div class="bg-comment-content">
+                            <p class="bg-comment-p">Together upon form divide good fowl Our heaven whose midst multiply thing under under fifth have signs man night they're also saying, made.
+
+                              Is for. Under set you're darkness creature us, is signs saying his darkness moving likeness above seas form herb herb, to fruit green heaven second set creature green a our. Image is. Which Saw fruit may deep.</p>
+                          </div>
+                        </div>
+
+                        <div class="lf-comment-info__buttons">
+                          <div class="lf-comment-info__reply">
+                            <i class="material-icons">chat_bubble_outline</i>
+                            <a href="#" class="bg-uppercase">Reply</a>
+                          </div>
+                          <div class="bg-comment-info__show_replies">
+                            <a href="#" class="bg-uppercase">Hide Replies</a><span class="lf-comment-info__replies">1</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="lf-comment-inline">
+                      <div class="lf-comment">
+                        <div class="lf-comment-user-profile-pic" style="background: url(../images/avatar_3.jpg) center; background-size: cover;">
+                        </div>
+
+                        <div class="bg-comment-info">
+                          <div class="lf-comment-info__header">
+                            <div class="bg-user-name bg-uppercase">
+                              <span>Alexei Rybin</span>
+                            </div>
+                            <div class="bg-comment-date">
+                              <i class="material-icons">access_time</i>
+                              <span>June 11, 2014 9:26 pm</span>
+                            </div>
+                          </div>
+
+                          <div class="lf-comment-info__content">
+                            <div class="bg-comment-content">
+                              <p class="bg-comment-p">Void and brought don't gathered. Appear yielding whose creeping him Heaven life have. So us spirit. Signs that lights lesser gathered for sixth Firmament brought fowl brought air fowl Stars abundantly seasons he the said. Very great. For. Brought evening.</p>
+                            </div>
+                          </div>
+
+                          <div class="lf-comment-info__buttons">
+                            <div class="lf-comment-info__reply">
+                              <i class="material-icons">chat_bubble_outline</i>
+                              <a href="#" class="bg-uppercase">Reply</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>  <!-- Close div.bg-comments -->
+
+                <!--Add comment box-->
+                <div class="bg-add-comment">
+                  <header>
+                    <h3 class="bg-uppercase">Add Comment</h3>
+                  </header>
+
+                  <div class="lf-add-comment__form">
+                    <div class="lf-add-comment-user-profile-pic" style="background: url(../images/avatar_4.jpeg) center; background-size: cover;"></div>
+
+                    <div class="bg-comment-form">
+                      <form action="">
+                        <input class="lf-comment-form__input" type="text" placeholder="Enter a subject">
+                        <textarea class="lf-comment-form__textarea" name="" id="" cols="30" rows="10" placeholder="Write your comment..."></textarea>
+                        <a href="#">
+                          <div class="lf-comment-form__button bg-uppercase">Add Comment</div>
+                        </a>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+
+              </section>
+            </div>
+          </div>
+          <div class="jt-article-preview__buttons">
+            <div class="jt-article-preview__more">
+              <i class="material-icons">format_line_spacing</i>
+              <span>Quick Read</span>
+            </div>
+            <div class="jt-article-preview__goto">
+              <i class="material-icons">open_in_browser</i>
+              <span><a href="../single-post/single-post.html">Go to post</a></span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="jt-pagination">
+        <i class="material-icons">keyboard_arrow_left</i>
+        <ul>
+          <li class="jt-pagination__item"><a href="#">1</a></li>
+          <li class="jt-pagination__item"><a href="#">2</a></li>
+          <li class="jt-pagination__item"><a href="#">3</a></li>
+          <li class="jt-pagination__item"><a href="#">4</a></li>
+          <li class="jt-pagination__item"><a href="#">5</a></li>
+          <li class="jt-pagination__item"><a href="#">6</a></li>
+          <li class="jt-pagination__item"><a href="#">...</a></li>
+          <li class="jt-pagination__item"><a href="#">35</a></li>
+        </ul>
+        <i class="material-icons">keyboard_arrow_right</i>
+      </div>
+    </div>
+  </div>
+  <footer class="jr-footer">
+    <!-- Footer menu bar -->
+    <ul class="jr-menu jr-menu--footer content-wrap">
+      <li class="jr-menu__item jr-menu__item--footer">
+        <a href="https://bovacademy.com/index.html" target="_blank">Home</a>
+      </li>
+      <li class="jr-menu__item jr-menu__item--footer">
+        <a href="https://bovacademy.com/programs-and-career-paths.html" target="_blank">Programs and career paths</a>
+      </li>
+      <li class="jr-menu__item jr-menu__item--footer">
+        <a href="https://bovacademy.com/mission.html" target="_blank">Our mission</a>
+      </li>
+      <li class="jr-menu__item jr-menu__item--footer">
+        <a href="https://bovacademy.com/careers.html" target="_blank">Careers</a>
+      </li>
+      <li class="jr-menu__item jr-menu__item--footer">
+        <a href="https://bovacademy.com/contact.html" target="_blank">Contact</a>
+      </li>
+    </ul>
+
+    <!-- Footer social bar -->
+    <div class="jr-footer__social">
+      <ul class="jr-menu jr-menu--social">
+        <li class="jr-menu__item jr-menu__item--social">
+          <a href="https://twitter.com/bovacademy" target="_blank">
+            <i class="icon-twitter" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li class="jr-menu__item jr-menu__item--social">
+          <a href="https://www.instagram.com/bovacademy/" target="_blank">
+            <i class="icon-instagram" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li class="jr-menu__item jr-menu__item--social">
+          <a href="http://encyclopedia.moderndeveloper.com/" target="_blank">
+            <img src="../images/Enlightenment_temp_icon.png">
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <hr>
+
+    <!-- Footer developer section-->
+    <div class="jr-footer__developers">
+      <p>Site developed by Bov Academy Students</p>
+      <div class="jr-developers">
+        <div class="row">
+          <!-- Each developer -->
+          <div class="jr-developers__each">
+            <!-- Can be replaced by img tag-->
+            <img src="../images/jake.jpg" class="jr-developers__each__img"
+                 id="pic-jake">
+            <p class="jr-developers__each__name">Jake Tom</p>
+          </div>
+
+          <!-- Each developer -->
+          <div class="jr-developers__each">
+            <!-- Can be replaced by img tag-->
+            <img src="../images/brent.jpg"class="jr-developers__each__img"
+                 id="pic-brent">
+            <p class="jr-developers__each__name">Brent Guffens</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <!-- Each developer -->
+          <div class="jr-developers__each">
+            <!-- Can be replaced by img tag-->
+            <img src="../images/lena.jpg" class="jr-developers__each__img"
+                 id="pic-lena">
+            <p class="jr-developers__each__name">Lena Faure</p>
+          </div>
+
+          <!-- Each developer -->
+          <div class="jr-developers__each">
+            <!-- Can be replaced by img tag-->
+            <img src="../images/jing.jpg" class="jr-developers__each__img"
+                 id="pic-jing">
+            <p class="jr-developers__each__name">Jing Ran</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/plugins/ScrollToPlugin.min.js"></script>
+  <script src="home.js"></script>
+  <script src="../subscribe-button.js"></script>
+</body>
+
+</html>

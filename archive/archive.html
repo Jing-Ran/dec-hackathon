@@ -1,0 +1,263 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700|Roboto+Slab::100,300,400" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="../images/favicon.png">
+  <link rel="stylesheet" href="../icomoon/style.css">
+  <link rel="stylesheet" href="../header-footer/header-footer.css">
+  <link rel="stylesheet" href="archive.css">
+</head>
+
+<body>
+<header class="jr-header jr-header-archive">
+  <!--  Header logo  -->
+  <div class="jr-header__logo jr-header__col">
+    <a href="../home/home.html"><img class="jr-header__logo__img" src="../images/BovAcademy_logo_head.png"></a>
+    <div class="jr-header__logo__txt">
+      <p class="jr-header__logo__txt--top">
+        <strong>Bov</strong> Academy <strong>Blog</strong>
+      </p>
+      <p class="jr-header__logo__txt--btm">of Programming and Futuristic Engineering</p>
+    </div>
+  </div>
+
+  <!--  Header menu  -->
+  <div class="jr-header__menu jr-header__col">
+    <ul class="jr-menu jr-menu--header">
+      <li class="jr-menu__item jr-menu__item--header">
+        <a href="../home/home.html">Latest<span class="mobile-hidden"> Posts</span></a>
+      </li>
+      <li class="jr-menu__item jr-menu__item--header">
+        <a href="../upcoming-post/upcoming-post.html">Upcoming<span class="mobile-hidden"> Posts</span></a>
+      </li>
+      <li class="jr-menu__item jr-menu__item--header">
+        <a href="../archive/archive.html">Archive</a>
+      </li>
+    </ul>
+  </div>
+
+  <!--  Header dropdown  -->
+  <div class="jr-header__dropdown jr-header__col">
+    <!-- <input type="radio" id="dropdown-checkbox"> -->
+    <div class="jr-header__dropdown__wrapper">
+      <div class="jr-header__dropdown__img">
+        <!-- First row -->
+        <div class="dots-row dots-row-1">
+          <span class="dot" id="blue"></span>
+          <span class="dot" id="green"></span>
+          <span class="dot" id="red"></span>
+        </div>
+        <!-- Second row -->
+        <div class="dots-row dots-row-1">
+          <span class="dot" id="pink"></span>
+          <span class="dot" id="purple"></span>
+          <span class="dot" id="l-green"></span>
+        </div>
+        <!-- Third row -->
+        <div class="dots-row dots-row-1">
+          <span class="dot" id="yellow"></span>
+          <span class="dot" id="orange"></span>
+          <span class="dot" id="l-blue"></span>
+        </div>
+      </div>
+      <span class="material-icons">arrow_drop_down</span>
+    </div>
+
+    <!-- dropdown list will go here-->
+  </div>
+</header>
+
+  <!-- Subscribe Button -->
+  <div class="lf-subscribe">
+    <div class="lf-subscribe__element" id="lf-subscribe__element-title" >Blog's Newsletter <a class="lf-subscribe-close" href="#" onclick="closeSubscribe()"><i class="material-icons">close</i></a></div>
+      <form>
+        <div id="lf-subscribe__element-firstname"><input type="text" placeholder="First Name"></div>
+        <div id="lf-subscribe__element-email"><input type="text" placeholder="Email"></div>
+      </form>
+    <div id="lf-subscribe__element-teaser" onclick="openSubscribe()" >Subscribe</div>
+  </div>
+  <!-- End Subscribe Button -->
+
+  <div class="container">
+    <div class="content-wrap">
+      <div class="search-wrap">
+        <label class="search-main__label" for="searchMain"><i class="material-icons">search</i></label>
+        <input id="searchMain" class="search-main__input" type="text" placeholder="Search">
+      </div>
+      <div class="lf-archive-wrapper">
+        <div class="lf-archive-title">Archive</div>
+        <div class="lf-year-wrapper">
+          <div class="lf-year">
+            <div class="lf-year-title">2016</div>
+            <div class="lf-month">
+              <div class="lf-month__timeline">
+                <div class="lf-month__timeline_circle">oct</div>
+              </div>
+              <div class="lf-month__posts">
+                <a href="../single-post/single-post.html">
+                  <div class="lf-month__posts__post">
+                    <img src="../images/laptop.jpg">
+                    <div class="lf-month__posts__post__legend">Leverage agile frameworks to provide a robust synopsis for high level overviews</div>
+                  </div>
+                </a>
+                <a href="../single-post/single-post.html">
+                  <div class="lf-month__posts__post">
+                    <img src="../images/laptop.jpg">
+                    <div class="lf-month__posts__post__legend">Leverage agile frameworks to provide a robust synopsis for high level overviews</div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="lf-month">
+              <div class="lf-month__timeline">
+                <div class="lf-month__timeline_circle">feb</div>
+              </div>
+              <div class="lf-month__posts">
+                <a href="../single-post/single-post.html">
+                  <div class="lf-month__posts__post">
+                    <img src="../images/laptop.jpg">
+                    <div class="lf-month__posts__post__legend">Leverage agile frameworks to provide a robust synopsis for high level overviews</div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="lf-month">
+              <div class="lf-month__timeline">
+                <div class="lf-month__timeline_circle">jan</div>
+              </div>
+              <div class="lf-month__posts">
+                <a href="../single-post/single-post.html">
+                  <div class="lf-month__posts__post lf-month__posts__post-last">
+                    <img src="../images/laptop.jpg">
+                    <div class="lf-month__posts__post__legend">Leverage agile frameworks to provide a robust synopsis for high level overviews</div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="lf-year">
+            <div class="lf-year-title">2015</div>
+            <div class="lf-month">
+              <div class="lf-month__timeline">
+                <div class="lf-month__timeline_circle">dec</div>
+              </div>
+              <div class="lf-month__posts">
+                <a href="../single-post/single-post.html">
+                  <div class="lf-month__posts__post">
+                    <img src="../images/laptop.jpg">
+                    <div class="lf-month__posts__post__legend">Leverage agile frameworks to provide a robust synopsis for high level overviews</div>
+                  </div>
+                </a>
+                <a href="../single-post/single-post.html">
+                  <div class="lf-month__posts__post lf-month__posts__post-last">
+                    <img src="../images/laptop.jpg">
+                    <div class="lf-month__posts__post__legend">Leverage agile frameworks to provide a robust synopsis for high level overviews</div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="jr-footer">
+  <!-- Footer menu bar -->
+  <ul class="jr-menu jr-menu--footer content-wrap">
+    <li class="jr-menu__item jr-menu__item--footer">
+      <a href="https://bovacademy.com/index.html" target="_blank">Home</a>
+    </li>
+    <li class="jr-menu__item jr-menu__item--footer">
+      <a href="https://bovacademy.com/programs-and-career-paths.html" target="_blank">Programs and career paths</a>
+    </li>
+    <li class="jr-menu__item jr-menu__item--footer">
+      <a href="https://bovacademy.com/mission.html" target="_blank">Our mission</a>
+    </li>
+    <li class="jr-menu__item jr-menu__item--footer">
+      <a href="https://bovacademy.com/careers.html" target="_blank">Careers</a>
+    </li>
+    <li class="jr-menu__item jr-menu__item--footer">
+      <a href="https://bovacademy.com/contact.html" target="_blank">Contact</a>
+    </li>
+  </ul>
+
+  <!-- Footer social bar -->
+  <div class="jr-footer__social">
+    <ul class="jr-menu jr-menu--social">
+      <li class="jr-menu__item jr-menu__item--social">
+        <a href="https://twitter.com/bovacademy" target="_blank">
+          <i class="icon-twitter" aria-hidden="true"></i>
+        </a>
+      </li>
+      <li class="jr-menu__item jr-menu__item--social">
+        <a href="https://www.instagram.com/bovacademy/" target="_blank">
+          <i class="icon-instagram" aria-hidden="true"></i>
+        </a>
+      </li>
+      <li class="jr-menu__item jr-menu__item--social">
+        <a href="http://encyclopedia.moderndeveloper.com/" target="_blank">
+          <img src="../images/Enlightenment_temp_icon.png">
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <hr>
+
+  <!-- Footer developer section-->
+  <div class="jr-footer__developers">
+    <p>Site developed by Bov Academy Students</p>
+    <div class="jr-developers">
+      <div class="row">
+        <!-- Each developer -->
+        <div class="jr-developers__each">
+          <!-- Can be replaced by img tag-->
+          <img src="../images/jake.jpg" class="jr-developers__each__img"
+               id="pic-jake">
+          <p class="jr-developers__each__name">Jake Tom</p>
+        </div>
+
+        <!-- Each developer -->
+        <div class="jr-developers__each">
+          <!-- Can be replaced by img tag-->
+          <img src="../images/brent.jpg"class="jr-developers__each__img"
+               id="pic-brent">
+          <p class="jr-developers__each__name">Brent Guffens</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <!-- Each developer -->
+        <div class="jr-developers__each">
+          <!-- Can be replaced by img tag-->
+          <img src="../images/lena.jpg" class="jr-developers__each__img"
+               id="pic-lena">
+          <p class="jr-developers__each__name">Lena Faure</p>
+        </div>
+
+        <!-- Each developer -->
+        <div class="jr-developers__each">
+          <!-- Can be replaced by img tag-->
+          <img src="../images/jing.jpg" class="jr-developers__each__img"
+               id="pic-jing">
+          <p class="jr-developers__each__name">Jing Ran</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+  <script src="../subscribe-button.js"></script>
+</body>
+
+</html>

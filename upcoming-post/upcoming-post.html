@@ -11,72 +11,241 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700|Roboto+Slab::100,300,400" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="../icomoon/style.css">
-  <link rel="stylesheet" href="../home/home.css">
   <link rel="stylesheet" href="../single-post/single-post.css">
   <link rel="stylesheet" href="../header-footer/header-footer.css">
   <link rel="stylesheet" href="../archive/archive.css">
+  <link rel="stylesheet" href="../home/home.css">
   <link rel="icon" type="image/x-icon" href="../images/favicon.png">
 </head>
 
 <body>
   <!-- Add a jr-header-home class for display -->
+  <input type="checkbox" name="dropdown-checkbox" id="jr-dropdown-checkbox">
   <header class="jr-header jr-header-upcoming">
+
     <!--  Header logo  -->
-    <div class="jr-header__logo jr-header__col">
-      <a href="../home/home.html"><img class="jr-header__logo__img" src="../images/BovAcademy_logo_head.png"></a>
-      <div class="jr-header__logo__txt">
-        <p class="jr-header__logo__txt--top">
-          <strong>Bov</strong> Academy <strong>Blog</strong>
-        </p>
-        <p class="jr-header__logo__txt--btm">of Programming and Futuristic Engineering</p>
+    <div class="jr-header-wrapper">
+      <div class="jr-header__logo jr-header__item">
+        <a href="https://bovacademy.com/index.html">
+          <img class="jr-header__logo__img" src="../images/BovAcademy_logo_head.png">
+          <div class="jr-header__logo__txt">
+            <p class="jr-header__logo__txt--top">
+              <strong>Bov</strong> Academy <strong>Blog</strong>
+            </p>
+            <p class="jr-header__logo__txt--btm">of Programming and Futuristic Engineering</p>
+          </div>
+        </a>
+      </div>
+
+      <!--  Header menu  -->
+      <nav class="jr-header__menu jr-header__item">
+        <ul class="jr-menu jr-menu--header">
+          <li class="jr-menu__item jr-menu__item--header">
+            <a href="../home/home.html">Latest<span class="mobile-hidden"> Posts</span></a>
+          </li>
+          <li class="jr-menu__item jr-menu__item--header">
+            <a href="../upcoming-post/upcoming-post.html">Upcoming<span class="mobile-hidden"> Posts</span></a>
+          </li>
+          <li class="jr-menu__item jr-menu__item--header">
+            <a href="../archive/archive.html">Archive</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!--  Header dropdown icon  -->
+      <div class="jr-header__dropdown jr-header__item">
+        <div class="jr-header__dropdown__wrapper">
+          <div class="jr-header__dropdown__img">
+            <!-- First row -->
+            <div class="dots-row dots-row-1">
+              <span class="dot" id="blue"></span>
+              <span class="dot" id="green"></span>
+              <span class="dot" id="red"></span>
+            </div>
+            <!-- Second row -->
+            <div class="dots-row dots-row-1">
+              <span class="dot" id="pink"></span>
+              <span class="dot" id="purple"></span>
+              <span class="dot" id="l-green"></span>
+            </div>
+            <!-- Third row -->
+            <div class="dots-row dots-row-1">
+              <span class="dot" id="yellow"></span>
+              <span class="dot" id="orange"></span>
+              <span class="dot" id="l-blue"></span>
+            </div>
+          </div>
+          <label for="jr-dropdown-checkbox" class="jr-dropdown-open">
+            <i class="material-icons">arrow_drop_up</i>
+            <!--<i class="material-icons">arrow_drop_up</i>-->
+          </label>
+        </div>
       </div>
     </div>
 
-    <!--  Header menu  -->
-    <div class="jr-header__menu jr-header__col">
-      <ul class="jr-menu jr-menu--header">
-        <li class="jr-menu__item jr-menu__item--header">
-          <a href="../home/home.html">Latest<span class="mobile-hidden"> Posts</span></a>
+
+
+  </header>
+  <!-- Header ends here -->
+
+  <!-- dropdown menu starts here-->
+  <div class="jr-dropdown-menu-wrapper">
+    <!-- Move triangle out of the jr-dropdown-menu for smoother animation -->
+    <div class="jr-dropdown-menu__triangle"></div>
+    <div class="jr-dropdown-menu">
+
+      <label for="jr-dropdown-checkbox" class="jr-dropdown-close">
+        <i class="material-icons">close</i>
+      </label>
+
+      <ul>
+        <li id="jr-labs">
+          <a href="#">
+            <div class="jr-dropdown-menu__logo">
+              <div class="jr-dropdown-menu__logo__outer">
+                <div class="jr-dropdown-menu__logo__inner">
+                  <img src="../images/labs-white.png"
+                       class="jr-dropdown-menu__logo__img jr-dropdown-menu__logo__img-white">
+                  <img src="../images/labs-color.png"
+                       class="jr-dropdown-menu__logo__img jr-dropdown-menu__logo__img-color">
+                </div>
+              </div>
+            </div>
+            <p>Labs</p>
+          </a>
         </li>
-        <li class="jr-menu__item jr-menu__item--header">
-          <a href="../upcoming-post/upcoming-post.html">Upcoming<span class="mobile-hidden"> Posts</span></a>
+
+        <li id="jr-students">
+          <a href="#">
+            <div class="jr-dropdown-menu__logo logo-students">
+              <div class="jr-dropdown-menu__logo__outer">
+                <div class="jr-dropdown-menu__logo__inner">
+                  <img src="../images/students-white.png"
+                       class="jr-dropdown-menu__logo__img jr-dropdown-menu__logo__img-white">
+                  <img src="../images/students-color.png"
+                       class="jr-dropdown-menu__logo__img jr-dropdown-menu__logo__img-color">
+                </div>
+              </div>
+            </div>
+            <p>Students</p>
+          </a>
         </li>
-        <li class="jr-menu__item jr-menu__item--header">
-          <a href="../archive/archive.html">Archive</a>
+
+        <li id="jr-enlightenment">
+          <a href="#">
+            <div class="jr-dropdown-menu__logo logo-students">
+              <div class="jr-dropdown-menu__logo__outer">
+                <div class="jr-dropdown-menu__logo__inner">
+                  <img src="../images/enlightenment-white.png"
+                       class="jr-dropdown-menu__logo__img jr-dropdown-menu__logo__img-white">
+                  <img src="../images/enlightenment-color.png"
+                       class="jr-dropdown-menu__logo__img jr-dropdown-menu__logo__img-color">
+                </div>
+              </div>
+            </div>
+            <p>Enlightenment</p>
+          </a>
         </li>
+
+        <li id="jr-learn">
+          <a href="#">
+            <div class="jr-dropdown-menu__logo logo-students">
+              <div class="jr-dropdown-menu__logo__outer">
+                <div class="jr-dropdown-menu__logo__inner">
+                  <img src="../images/learn-white.png"
+                       class="jr-dropdown-menu__logo__img jr-dropdown-menu__logo__img-white">
+                  <img src="../images/learn-color.png"
+                       class="jr-dropdown-menu__logo__img jr-dropdown-menu__logo__img-color">
+                </div>
+              </div>
+            </div>
+            <p>Learn</p>
+          </a>
+        </li>
+
+        <li id="jr-blog">
+          <a href="#">
+            <div class="jr-dropdown-menu__logo logo-students">
+              <div class="jr-dropdown-menu__logo__outer">
+                <div class="jr-dropdown-menu__logo__inner">
+                  <img src="../images/blog-white.png"
+                       class="jr-dropdown-menu__logo__img jr-dropdown-menu__logo__img-white">
+                  <img src="../images/blog-color.png"
+                       class="jr-dropdown-menu__logo__img jr-dropdown-menu__logo__img-color">
+                </div>
+              </div>
+            </div>
+            <p>Blog</p>
+          </a>
+        </li>
+
+        <li id="jr-books">
+          <a href="#">
+            <div class="jr-dropdown-menu__logo logo-students">
+              <div class="jr-dropdown-menu__logo__outer">
+                <div class="jr-dropdown-menu__logo__inner">
+                  <img src="../images/books-white.png"
+                       class="jr-dropdown-menu__logo__img jr-dropdown-menu__logo__img-white" style="width: 20px">
+                  <img src="../images/books-color.png"
+                       class="jr-dropdown-menu__logo__img jr-dropdown-menu__logo__img-color" style="width: 20px">
+                </div>
+              </div>
+            </div>
+            <p>Books</p>
+          </a>
+        </li>
+
+        <li id="jr-tech">
+          <a href="#">
+            <div class="jr-dropdown-menu__logo logo-students">
+              <div class="jr-dropdown-menu__logo__outer">
+                <div class="jr-dropdown-menu__logo__inner">
+                  <img src="../images/tech-white.png"
+                       class="jr-dropdown-menu__logo__img jr-dropdown-menu__logo__img-white" style="width: 22px">
+                  <img src="../images/tech-color.png"
+                       class="jr-dropdown-menu__logo__img jr-dropdown-menu__logo__img-color" style="width: 22px">
+                </div>
+              </div>
+            </div>
+            <p>Tech Guide</p>
+          </a>
+        </li>
+
+        <li id="jr-qa">
+          <a href="#">
+            <div class="jr-dropdown-menu__logo logo-students">
+              <div class="jr-dropdown-menu__logo__outer">
+                <div class="jr-dropdown-menu__logo__inner">
+                  <img src="../images/qa-white.png"
+                       class="jr-dropdown-menu__logo__img jr-dropdown-menu__logo__img-white">
+                  <img src="../images/qa-color.png"
+                       class="jr-dropdown-menu__logo__img jr-dropdown-menu__logo__img-color">
+                </div>
+              </div>
+            </div>
+            <p>QA</p>
+          </a>
+        </li>
+
+        <li id="jr-know">
+          <a href="#">
+            <div class="jr-dropdown-menu__logo logo-students">
+              <div class="jr-dropdown-menu__logo__outer">
+                <div class="jr-dropdown-menu__logo__inner">
+                  <img src="../images/know-white.png"
+                       class="jr-dropdown-menu__logo__img jr-dropdown-menu__logo__img-white" style="width: 26px;">
+                  <img src="../images/know-color.png"
+                       class="jr-dropdown-menu__logo__img jr-dropdown-menu__logo__img-color" style="width: 26px;">
+                </div>
+              </div>
+            </div>
+            <p>Know</p>
+          </a>
+        </li>
+
       </ul>
     </div>
-
-    <!--  Header dropdown  -->
-    <div class="jr-header__dropdown jr-header__col">
-      <!-- <input type="radio" id="dropdown-checkbox"> -->
-      <div class="jr-header__dropdown__wrapper">
-        <div class="jr-header__dropdown__img">
-          <!-- First row -->
-          <div class="dots-row dots-row-1">
-            <span class="dot" id="blue"></span>
-            <span class="dot" id="green"></span>
-            <span class="dot" id="red"></span>
-          </div>
-          <!-- Second row -->
-          <div class="dots-row dots-row-1">
-            <span class="dot" id="pink"></span>
-            <span class="dot" id="purple"></span>
-            <span class="dot" id="l-green"></span>
-          </div>
-          <!-- Third row -->
-          <div class="dots-row dots-row-1">
-            <span class="dot" id="yellow"></span>
-            <span class="dot" id="orange"></span>
-            <span class="dot" id="l-blue"></span>
-          </div>
-        </div>
-        <span class="material-icons">arrow_drop_down</span>
-      </div>
-
-      <!-- dropdown list will go here-->
-    </div>
-  </header>
+  </div>
 
   <!-- Subscribe Button -->
   <div class="lf-subscribe">
@@ -871,7 +1040,7 @@
   </div>
   <footer class="jr-footer">
     <!-- Footer menu bar -->
-    <ul class="jr-menu jr-menu--footer content-wrap">
+    <ul class="jr-menu jr-menu--footer">
       <li class="jr-menu__item jr-menu__item--footer">
         <a href="https://bovacademy.com/index.html" target="_blank">Home</a>
       </li>
@@ -919,17 +1088,19 @@
         <div class="row">
           <!-- Each developer -->
           <div class="jr-developers__each">
-            <!-- Can be replaced by img tag-->
-            <img src="../images/jake.jpg" class="jr-developers__each__img"
+            <div>
+              <img src="../images/jake.jpg" class="jr-developers__each__img"
                  id="pic-jake">
+            </div>
             <p class="jr-developers__each__name">Jake Tom</p>
           </div>
 
           <!-- Each developer -->
           <div class="jr-developers__each">
-            <!-- Can be replaced by img tag-->
-            <img src="../images/brent.jpg"class="jr-developers__each__img"
-                 id="pic-brent">
+            <div>
+              <img src="../images/brent.jpg" class="jr-developers__each__img"
+                   id="pic-brent">
+            </div>
             <p class="jr-developers__each__name">Brent Guffens</p>
           </div>
         </div>
@@ -937,17 +1108,19 @@
         <div class="row">
           <!-- Each developer -->
           <div class="jr-developers__each">
-            <!-- Can be replaced by img tag-->
-            <img src="../images/lena.jpg" class="jr-developers__each__img"
-                 id="pic-lena">
+            <div>
+              <img src="../images/lena.jpg" class="jr-developers__each__img"
+                   id="pic-lena">
+            </div>
             <p class="jr-developers__each__name">Lena Faure</p>
           </div>
 
           <!-- Each developer -->
           <div class="jr-developers__each">
-            <!-- Can be replaced by img tag-->
-            <img src="../images/jing.jpg" class="jr-developers__each__img"
-                 id="pic-jing">
+            <div id="div-jing">
+              <img src="../images/jing.jpg" class="jr-developers__each__img"
+                   id="pic-jing">
+            </div>
             <p class="jr-developers__each__name">Jing Ran</p>
           </div>
         </div>

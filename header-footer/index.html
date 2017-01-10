@@ -51,7 +51,7 @@
 
       <!--  Header dropdown icon  -->
       <div class="jr-header__dropdown jr-header__item">
-        <div class="jr-header__dropdown__wrapper">
+        <label for="jr-dropdown-checkbox" class="jr-dropdown-open">
           <div class="jr-header__dropdown__img">
             <!-- First row -->
             <div class="dots-row dots-row-1">
@@ -72,25 +72,17 @@
               <span class="dot" id="l-blue"></span>
             </div>
           </div>
-          <label for="jr-dropdown-checkbox" class="jr-dropdown-open">
-            <i class="material-icons">arrow_drop_up</i>
-            <!--<i class="material-icons">arrow_drop_up</i>-->
-          </label>
-        </div>
+          <i class="material-icons">arrow_drop_up</i>
+        </label>
       </div>
     </div>
-
-
-
   </header>
   <!-- Header ends here -->
 
   <!-- dropdown menu starts here-->
   <div class="jr-dropdown-menu-wrapper">
-    <!-- Move triangle out of the jr-dropdown-menu for smoother animation -->
     <div class="jr-dropdown-menu__triangle"></div>
     <div class="jr-dropdown-menu">
-
       <label for="jr-dropdown-checkbox" class="jr-dropdown-close">
         <i class="material-icons">close</i>
       </label>
@@ -239,13 +231,14 @@
             <p>Know</p>
           </a>
         </li>
-
       </ul>
     </div>
   </div>
   <!-- dropdown menu ends here -->
 
+  <!-- filter starts here -->
   <div class="jr-filter"></div>
+  <!-- filter ends here -->
 
   <div class="container">
     <div class="content-wrap">
@@ -338,7 +331,7 @@
 
           <!-- Each developer -->
           <div class="jr-developers__each">
-            <div id="div-jing">
+            <div>
               <img src="../images/jing.jpg" class="jr-developers__each__img"
                    id="pic-jing">
             </div>

@@ -50,25 +50,6 @@ h1, h2, h3 {
   color: #353839;
 }
 
-h1 {
-  font-size: 1.65rem;
-}
-
-h2 {
-  font-size: 1.3rem;
-  margin-top: 2rem;
-  margin-bottom: .2rem;
-}
-
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #bbb;
-    margin: 1em 0;
-    padding: 0; 
-}
-
 textarea {
   resize: none;
 }
@@ -81,33 +62,23 @@ textarea {
 }
 
   .bg-content-wrap {
-    background-color: #e6eaef;
+    background: -webkit-gradient(linear, left top, 0 275, from(#F5F7FA), to(#E6EAEF));
     border-radius: 5px;
-    width: 700px;
+    max-width: 809px;
     margin: 0 auto;
-    margin: -150px auto 0;
-    padding-bottom: 4rem;
+    margin: -12vw auto 0;
+    padding-bottom: 2.875rem;
     position: relative;
   }
 
     .bg-shadow {
       border-top-left-radius: 5px;
       border-top-right-radius: 5px;
-      box-shadow: 0 -8px 10px rgba(0,0,0,.25);
-      height: 250px;
+      box-shadow: 0 -8px 10px rgba(0,0,0,.1);
+      height: 275px;
       position: absolute;
-      width: 700px;
+      width: 809px;
     }
-
-/*Laying out the page*/
-
-.col-1 {
-  width: 8.333333%; 
-}
-
-.col-11 {
-  width: 91.666667%; 
-} 
 
 /*Recurring styles*/
 
@@ -139,41 +110,56 @@ textarea {
 
     .bg-background-image-text {
       color: #fff;
-      font-size: 3rem;
+      font-size: 4.5vw;
       font-weight: 100;
       position: absolute;
-      top: 25%;
+      top: 5vw;
       left: 50%;
       transform: translateX(-50%);
     }
+
+/* Horizontal line between article and comments section */    
+
+.article-comment-separator {
+    background-color: #bbb;
+    border: 0;
+    color: #bbb;
+    display: block;
+    height: 2px;
+    margin: 0 auto;
+    margin-left: -160.5px;
+    width: 1130px;
+}    
 
 /* Article section styling */
 
 .bg-article-section {
   display: flex;
-  padding: 2rem;
+  padding: 1.875rem 2.75rem 2.375rem 2.375rem; 
 }
 
   .bg-article-date {
     align-items: center;
-    border-right: 1px solid #bbb;
-    color: #aaa;
+    border-right: 1px solid #CCD5E0;
+    color: #ACB9C8;
     display: flex;
     flex-direction: column;
-    height: 140px;
+    height: 167px;
     justify-content: center;
     letter-spacing: 3px;
-    margin-right: 2rem;
-    padding-right: 1.3rem;
+    padding: 0;
+    margin-right: 1.9375rem;
+    padding-right: 2.0625rem;
   }
 
     .bg-article-day {
-      font-size: 1.1rem;
-      margin-bottom: .2rem;
+      font-size: 1.2rem;
+      margin-bottom: .45rem;
     }
 
     .bg-article-month {
-      font-size: .75rem;
+      font-size: .85rem;
+      font-weight: 500;
     }
 
   .bg-author-profile {
@@ -189,39 +175,65 @@ textarea {
     }
 
       .bg-author {
-        color: #aaa;
-        font-size: .64rem;
+        color: #858F98;
+        font-size: .8rem;
         margin-bottom: .2rem;
       }
 
       .bg-author-name {
-        font-size: .75rem;
+        font-size: .8rem;
+        font-weight: 500;
+        color: #4D5E6B;
       }
 
-  .bg-article-p, .bg-comment-p {
-  font-size: .9rem;
-  line-height: 1.5rem;
-}
+  .bg-article-header {
+    color: #4D5E6B;
+    font-size: 1.925rem;
+    font-weight: 500;
+    margin: 1.5rem 0 1.3rem;
+  }
 
+  .bg-article-subheader {
+    color: #4D5E6B;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 2.65rem;
+    margin-bottom: 0;
+  } 
+
+  .bg-article p {
+    font-size: 1rem;
+    line-height: 1.625rem;
+    margin-top: .70rem;
+    margin-bottom: 1.75rem;
+    max-width: 690px;
+  }
+
+  .bg-comment-content p {
+    font-size: .95rem;
+    line-height: 1.625rem;
+    margin-bottom: .85rem;
+  }
 
   .bg-link {
     align-items: center;
     display: flex;
     font-size: .9rem;
-    margin-top: 3rem;
+    margin-top: 2.7736rem;
     justify-content: center;
     width: 100%;
   }
 
     .bg-url {
-      background-color: #fff;
+      background-color: #f3f6f9;
+      border-radius: 3px;
+      -webkit-box-shadow: 0px -1px 0px 0px #C4CED7;
+         -moz-box-shadow: 0px -1px 0px 0px #C4CED7;
+              box-shadow: 0px -1px 0px 0px #C4CED7;
+      color: #6cc8db;
       margin-left: .5rem;
       padding: .8rem 1rem;
     }
-
-      .bg-url a {
-        color: #6cc8db;
-      }
 
   /* Styling of code snippet inside article */
 
@@ -232,7 +244,7 @@ textarea {
     .bg-code-snippet label {
       color: #AAA;
       cursor: pointer;
-      font-size: .8rem;
+      font-size: .85rem;
       display: inline-block;
       padding: .5rem;
     }
@@ -242,10 +254,10 @@ textarea {
     }
 
     .console {
-      background-color: #fff;
+      background-color: #f6f6f6;
       display: none;
-      height: 140px;
-      padding: 2rem 0 0 2rem;
+      min-height: 162.625px;
+      padding: 2.4571rem 2.1875rem
     }
 
       .js-code {
@@ -287,16 +299,16 @@ textarea {
       display: block;
     }
 
-    .bg-code-snippet-description {
+    .bg-code-snippet .bg-code-snippet-description {
+      color: #5E5E5E;
+      margin-top: .825rem;
       padding-left: 1rem;
-      font-size: .85rem;
+      font-size: .9rem;
     }
 
-/*User profile pic placeholder-ish thing*/
 .lf-author-profile-pic {
-  width: 40px;
-  height: 40px;
-  padding: 25px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
 }
 
@@ -309,29 +321,38 @@ textarea {
   margin-right: 1.3em;
 }
 
+.bg-comment-section {
+  margin: 0 auto;
+  width: 665px;
+}
+
 .bg-comment-section h2 {
+  color: #4D5E6B;
+  font-size: 23px;
+  font-weight: 500;
   text-align: center;
-  font-weight: 400;
-  margin: 15px 0;
-  font-size: 22px;
+  letter-spacing: .05rem;
+  padding: 1.1875rem;
+  margin: 0;
 }
 
 .lf-comment {
   display: flex;
-  padding: 1.5em 0;
+  padding: 1.45rem 0 0.8rem;
   border-top: 1px solid #bbb;
 }
 
 .bg-user-name {
+  color: #4D5E6B;
   font-size: 12px;
   font-weight: 500;
   letter-spacing: 2px;
 }
 
 .bg-comment-date {
-  font-size: 12px;
+  font-size: .7rem;
   color: #8b9496;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.025rem;
   display: flex;
   align-items: flex-end;
 }
@@ -349,6 +370,7 @@ textarea {
 }
 
 .bg-comment-subject h3 {
+  color: #4D5E6B;
   font-size: 15px;
   font-weight: 600;
   letter-spacing: 0.75px;
@@ -365,20 +387,41 @@ textarea {
   display: flex;
   justify-content: space-between;
   letter-spacing: 2px;
-  font-size: 11px;
+  font-size: .625rem;
   color: #8b9496;
 }
 
-.lf-comment-info__reply {
+.lf-comment-info__reply,
+.bg-comment-info__show_replies {
   display: flex;
   align-items: center;
 }
 
+/*Reply and Show Replies text on hover*/
+
+  /*Make all elements, except of the span at the end, a darker (text) color on hover*/
+
+  .lf-comment-info__reply:hover,
+  .lf-comment-info__reply:hover > i,
+  .bg-comment-info__show_replies:hover > a {
+    color: #4f565e;
+  }
+
+  /*Color of span after Show Replies button (containing no. of replies) */
+
+  .bg-comment-info__show_replies:hover > span {
+    background-color: #3da7bd;
+  }
+
+.lf-comment-info__reply:hover,
+.lf-comment-info__reply a:hover,
 .bg-comment-info__show_replies:hover,
-.lf-comment-info__reply:hover {
-  color: #4f565e;
+.bg-comment-info__show_replies a:hover {
   cursor: pointer;
 }
+
+/*Buttons next to Reply and Show Replies on hover*/
+
 
 .lf-comment-info__reply .material-icons {
   font-size: 13px;
@@ -388,12 +431,19 @@ textarea {
 }
 
 .lf-comment-info__replies {
+  align-items: center;
   background-color: #6cc8db;
   color: #fff;
-  padding: 3px 7px;
+  display: flex;
+  justify-content: center;
+  font-size: .75rem;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 1rem;
   border-radius: 4px;
   margin-left: 10px;
-  text-align: center;
+  height: 18px;
+  width: 27px;
 }
 
 .lf-comment-inline {
@@ -405,18 +455,20 @@ textarea {
 }
 
 .bg-add-comment h3 {
+  color: #4D5E6B;
   text-align: center;
-  font-size: 12px;
+  font-size: .7rem;
   font-weight: 500;
   letter-spacing: 2px;
   padding: 20px 0 15px 0;
-  border-top: 1px solid #bbb;
   border-bottom: 1px solid #bbb;
+  border-top: 1px solid #bbb;
+
 }
 
 .lf-add-comment__form {
   display: flex;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 .lf-add-comment-user-profile-pic {
@@ -432,6 +484,9 @@ textarea {
 }
 
 .lf-comment-form__input, .lf-comment-form__textarea {
+  -webkit-box-shadow: 0px -1px 0px 0px #C4CED7;
+     -moz-box-shadow: 0px -1px 0px 0px #C4CED7;
+          box-shadow: 0px -1px 0px 0px #C4CED7;
   width: 100%;
 }
 
@@ -442,7 +497,6 @@ textarea {
   width: 100%;
   background-color: #f2f5f7;
   border: none;
-  border-top: 2px solid #e6edf5;
   border-radius: 4px;
   font-size: 14px;
   padding: 12px;
@@ -458,32 +512,55 @@ textarea {
 }
 
 .lf-comment-form__button {
-  background-color: #6cc8db;
-  color: #fff;
-  padding: 12px;
-  border-radius: 20px;
-  margin: 0 auto;
-  font-size: 12px;
-  font-weight: 300;
-  letter-spacing: 3px;
-  width: 25%;
-  text-align: center;
-  margin-top: 30px;
+  margin-top: 1.6875rem;
+  display: flex;
+  justify-content: center;
 }
 
-.lf-comment-form__button:hover {
+.lf-comment-form__button button {
+  background-color: #6cc8db;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  font-size: .55rem;
+  font-weight: 100;
+  letter-spacing: 0.1875rem;
+  line-height: 1rem;
+  height: 30px;
+  padding: 0 1.9375rem;
+}
+
+.lf-comment-form__button button:hover {
   cursor: pointer;
   background-color: #3da7bd;
 }
 
-/*Preview buttons on the Read Next Post article*/
+/*Read Next Post article specific styling*/
+
+.bg-author-profile-pic-next-post {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+}
+
+.bg-author-next-post {
+  color: #858F98;
+  font-size: .6rem;
+  margin-bottom: .2rem;
+}
+
+.bg-author-name-next-post {
+  font-size: .7rem;
+  font-weight: 500;
+  letter-spacing: .175rem;
+  color: #4D5E6B;
+}
 
 .bg-article-preview__buttons {
-  background-color: pink;
+  background-color: #e6eaef;
   color: #4f565e;
   display: flex;
-  margin-top: 50px;
-  background-color: #e6eaef;
+  margin: 3.125rem 0 2.5rem;
 }
 
 .bg-article-preview__more, 
@@ -492,9 +569,11 @@ textarea {
   align-items: center;
   padding: 8px 10px;
   height: 38px;
-  border: 2px solid #c9cfd7;
+  border: 1px solid #C4CED7;
   border-radius: 4px;
   cursor: pointer;
+  font-weight: 300;
+  letter-spacing: .075rem;
 }
 
 .bg-article-preview__more:hover, 
@@ -515,52 +594,34 @@ textarea {
   .bg-article-preview__more span,
   .bg-article-preview__goto span {
     margin-left: 7px;
-    font-weight: 700;
   }
 
 
-/*Tablet styles (not important - leave for the end)*/
-
-@media all and (max-width: 768px) {
+@media all and (max-width: 935px) {
   .bg-content-wrap {
-    width: 90%;
-  }
-
-  .lf-comment-form__button {
-    width: 100%;
-  }
-}
-
-/*Mobile styles (work on this after desktop)*/
-
-@media all and (max-width: 360px) {
-  
-  h1 {
-    margin-top: 40px;
-  }
-
-  .col-1, .col-11 {
-    width: 100%;
-  }
-
-  .bg-content-wrap {
+    background: -webkit-gradient(linear, left top, 0 200, from(#F5F7FA), to(#E6EAEF));
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin: -50px auto 0;
-    width: 90%;
+    margin: -100px auto 0;
+    width: 80%;
+  }
+
+   h1 {
+    margin-top: 40px;
   }
 
     .bg-shadow {
       margin: 0 auto;
-      height: 150px;
       width: 100%;
+      height: 200px;
     }
 
     .bg-article-section {
       align-items: center;
       flex-direction: column;
-      padding: 15px;
+      padding-left: 3rem;
+      padding-right: 3rem;
     }  
 
       .bg-article-date {
@@ -581,7 +642,8 @@ textarea {
       }
 
   .bg-author-profile {
-    padding: 20px;
+    justify-content: center;
+    padding: 2rem 1.25rem;
   }
 
   .lf-author-profile-pic {
@@ -595,8 +657,7 @@ textarea {
   }
 
   .bg-background-image-text {
-    font-size: 1rem;
-    top: 20px;
+    font-size: 6vw;
   }
 
   .bg-article-preview__more, 
@@ -604,3 +665,77 @@ textarea {
     height: 55px;
   }
 }
+
+@media all and (max-width: 825px) {
+  .bg-comment-section {
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 725px) {
+
+    .bg-article-header {
+      font-size: 1.6739rem;
+    }
+
+    .bg-article-subheader {
+      font-size: 1.1471rem;
+    }
+
+    .bg-comment-section h2 {
+      font-size: 20px;
+    }
+
+ }
+
+@media all and (max-width: 625px) {
+
+    .bg-content-wrap {
+      margin-top: -75px;
+      width: 90%;
+    }
+
+ }
+
+ @media all and (max-width: 440px) {
+
+    .bg-content-wrap {
+      margin-top: -50px;
+      min-width: 300px;
+    }
+    
+    .bg-article-section {
+      padding: 1.875rem 2.75rem 2.375rem 2.375rem;
+    }
+  
+    .lf-comment-info__header {
+      justify-content: flex-start;
+      flex-direction: column;
+      margin-top: 8px;
+    }
+
+      .bg-comment-date {
+        margin-top: 10px;
+      }
+
+    .lf-comment-info__content {
+      margin-top: 30px;
+      margin-left: -65px;
+    }
+
+    .lf-comment-info__buttons {
+      margin-left: -65px;
+    }
+
+    .lf-comment-inline {
+      margin-left: 1.5rem;
+    }
+
+    .bg-background-image-text {
+      font-size: 7vw;
+    }
+
+ }
+
+
+

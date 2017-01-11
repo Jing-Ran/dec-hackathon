@@ -58,20 +58,20 @@ a {
 
 .search-main__input {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  letter-spacing: 1px;
   width: 100%;
   background-color: #eff3f8;
-  border: 2px solid #d9e2ec;
+  border: 1px solid #d9e2ec;
   border-radius: 4px;
   font-size: 22px;
   padding: 13px 13px 13px 50px;
+  transition: border 0.2s;
 }
 
 .search-main__input:focus {
   outline: none;
+  border: 1px solid #999;
+  transition: border 0.2s;
 }
-
 
 /*Main styles go here*/
 
@@ -80,6 +80,17 @@ body {
   font-size: 16px;
   background-color: #e6eaef;
 }
+
+.content-wrap {
+  width: 896px;
+  margin: 0 auto;
+}
+
+.container {
+  width: 100%;
+}
+
+/* Archive page */
 
 .lf-subscribe {
   position: fixed;
@@ -204,16 +215,6 @@ body {
   transform: translate(0,0 ) rotate(0deg);
 }
 
-
-.content-wrap {
-  width: 800px;
-  margin: 0 auto;
-}
-
-.container {
-  width: 100%;
-}
-
 .lf-archive-wrapper{
   width: 70%;
   margin: 0 auto;
@@ -221,8 +222,9 @@ body {
 
 .lf-archive-title {
   text-align: center;
-  font-size: 28px;
-  padding: 2em 0 1em 0;
+  font-size: 34px;
+  font-weight: 300;
+  padding: 52px 0 50px 0;
   color: #53575d;
 }
 
@@ -266,6 +268,7 @@ body {
 }
 
 .lf-month__posts__post {
+  width: 561px;
   padding-bottom: 3em;
 }
 
@@ -279,6 +282,7 @@ body {
   text-align: justify;
   font-size: 15px;
   font-weight: 500;
+  letter-spacing: 1px;
 }
 
 /*Tablet styles (not important - leave for the end)*/
@@ -320,6 +324,11 @@ body {
     letter-spacing: 1px;
   }
 
+  .lf-month__posts__post {
+    width: 100%;
+    padding-bottom: 3em;
+  }
+
   .lf-subscribe {
     display: none;
   }
@@ -328,9 +337,13 @@ body {
 
 @media all and (min-width: 769px) {
   .lf-month__timeline {
-    padding-right: 20px;
+    padding-right: 44px;
     border-left: 3px solid #d8e1ed;
     margin-left: 15px;
+  }
+
+  .lf-month__posts img {
+    height: 235px;
   }
 }
 

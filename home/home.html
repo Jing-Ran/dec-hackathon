@@ -19,7 +19,7 @@
 </head>
 
 <body>
-  <!-- Add a jr-header-home class for display -->
+  <!-- Header starts here -->
   <input type="checkbox" name="dropdown-checkbox" id="jr-dropdown-checkbox">
   <header class="jr-header jr-header-home">
 
@@ -54,7 +54,7 @@
 
       <!--  Header dropdown icon  -->
       <div class="jr-header__dropdown jr-header__item">
-        <div class="jr-header__dropdown__wrapper">
+        <label for="jr-dropdown-checkbox" class="jr-dropdown-open">
           <div class="jr-header__dropdown__img">
             <!-- First row -->
             <div class="dots-row dots-row-1">
@@ -75,25 +75,17 @@
               <span class="dot" id="l-blue"></span>
             </div>
           </div>
-          <label for="jr-dropdown-checkbox" class="jr-dropdown-open">
-            <i class="material-icons">arrow_drop_up</i>
-            <!--<i class="material-icons">arrow_drop_up</i>-->
-          </label>
-        </div>
+          <i class="material-icons">arrow_drop_up</i>
+        </label>
       </div>
     </div>
-
-
-
   </header>
   <!-- Header ends here -->
 
   <!-- dropdown menu starts here-->
   <div class="jr-dropdown-menu-wrapper">
-    <!-- Move triangle out of the jr-dropdown-menu for smoother animation -->
     <div class="jr-dropdown-menu__triangle"></div>
     <div class="jr-dropdown-menu">
-
       <label for="jr-dropdown-checkbox" class="jr-dropdown-close">
         <i class="material-icons">close</i>
       </label>
@@ -242,10 +234,10 @@
             <p>Know</p>
           </a>
         </li>
-
       </ul>
     </div>
   </div>
+  <!-- dropdown menu ends here -->
   <!-- Subscribe Button -->
   <div class="lf-subscribe">
     <div class="lf-subscribe__element" id="lf-subscribe__element-title">Blog's Newsletter <a class="lf-subscribe-close" href="#" onclick="closeSubscribe()"><i class="material-icons">close</i></a></div>
@@ -259,7 +251,10 @@
     </form>
     <div id="lf-subscribe__element-teaser" onclick="openSubscribe()">Subscribe</div>
   </div>
-  <!-- End Subscribe Button -->
+  <!-- En      <div class="search-wrap">
+        <label class="search-main__label" for="searchMain"><i class="material-icons">search</i></label>
+        <input id="searchMain" class="search-main__input" type="text" placeholder="Search">
+      </div>d Subscribe Button -->
   <div class="container">
     <div class="content-wrap">
       <div class="search-wrap">
@@ -301,10 +296,10 @@
                     </header>
                     <p>There are many use cases for a service like Cloudinary. When I think about my site, I see one obvious need: resized, optimized images on post list pages. Google PageSpeed crucifies my site for image size and I can't blame them: I have a regex routine that searches for the first image in a post and uses that as the post image, but the routine doesn't optimize images, so if the image is very large, I may scale it down with HTML attributes but the download size is still massive.</p>
                     <div class="bg-code-snippet">
-                      <input id="input-js" type="radio" name="js-console" checked>
-                      <label class="bg-uppercase" for="input-js">JavaScript</label>
-                      <input id="display-result" type="radio" name="js-console">
-                      <label class="bg-uppercase" for="display-result">Result</label>
+                      <input id="input-js-article-1" type="radio" name="js-console-article-1" checked>
+                      <label class="bg-uppercase" for="input-js-article-1">JavaScript</label>
+                      <input id="display-result-article-1" type="radio" name="js-console-article-1">
+                      <label class="bg-uppercase" for="display-result-article-1">Result</label>
                       <div class="console">
                         <span class="js-code"><span class="js-code-comment-and-line-number">1</span> &nbsp;<span class="js-code-keyword">var</span> <span class="js-code-var-name">myArray</span> = [<span class="js-code-number">6</span>, <span class="js-code-number">5</span>, <span class="js-code-number">4</span>, <span class="js-code-number">3</span>, <span class="js-code-number">1</span>, <span class="js-code-number">2</span>];</span>
                         <br>
@@ -513,10 +508,10 @@
                     </header>
                     <p>There are many use cases for a service like Cloudinary. When I think about my site, I see one obvious need: resized, optimized images on post list pages. Google PageSpeed crucifies my site for image size and I can't blame them: I have a regex routine that searches for the first image in a post and uses that as the post image, but the routine doesn't optimize images, so if the image is very large, I may scale it down with HTML attributes but the download size is still massive.</p>
                     <div class="bg-code-snippet">
-                      <input id="input-js" type="radio" name="js-console" checked>
-                      <label class="bg-uppercase" for="input-js">JavaScript</label>
-                      <input id="display-result" type="radio" name="js-console">
-                      <label class="bg-uppercase" for="display-result">Result</label>
+                      <input id="input-js-article-2" type="radio" name="js-console-article-2" checked>
+                      <label class="bg-uppercase" for="input-js-article-2">JavaScript</label>
+                      <input id="display-result-article-2" type="radio" name="js-console-article-2">
+                      <label class="bg-uppercase" for="display-result-article-2">Result</label>
                       <div class="console">
                         <span class="js-code"><span class="js-code-comment-and-line-number">1</span> &nbsp;<span class="js-code-keyword">var</span> <span class="js-code-var-name">myArray</span> = [<span class="js-code-number">6</span>, <span class="js-code-number">5</span>, <span class="js-code-number">4</span>, <span class="js-code-number">3</span>, <span class="js-code-number">1</span>, <span class="js-code-number">2</span>];</span>
                         <br>
@@ -725,10 +720,10 @@
                     </header>
                     <p>There are many use cases for a service like Cloudinary. When I think about my site, I see one obvious need: resized, optimized images on post list pages. Google PageSpeed crucifies my site for image size and I can't blame them: I have a regex routine that searches for the first image in a post and uses that as the post image, but the routine doesn't optimize images, so if the image is very large, I may scale it down with HTML attributes but the download size is still massive.</p>
                     <div class="bg-code-snippet">
-                      <input id="input-js" type="radio" name="js-console" checked>
-                      <label class="bg-uppercase" for="input-js">JavaScript</label>
-                      <input id="display-result" type="radio" name="js-console">
-                      <label class="bg-uppercase" for="display-result">Result</label>
+                      <input id="input-js-article-3" type="radio" name="js-console-article-3" checked>
+                      <label class="bg-uppercase" for="input-js-article-3">JavaScript</label>
+                      <input id="display-result-article-3" type="radio" name="js-console-article-3">
+                      <label class="bg-uppercase" for="display-result-article-3">Result</label>
                       <div class="console">
                         <span class="js-code"><span class="js-code-comment-and-line-number">1</span> &nbsp;<span class="js-code-keyword">var</span> <span class="js-code-var-name">myArray</span> = [<span class="js-code-number">6</span>, <span class="js-code-number">5</span>, <span class="js-code-number">4</span>, <span class="js-code-number">3</span>, <span class="js-code-number">1</span>, <span class="js-code-number">2</span>];</span>
                         <br>
@@ -937,10 +932,10 @@
                     </header>
                     <p>There are many use cases for a service like Cloudinary. When I think about my site, I see one obvious need: resized, optimized images on post list pages. Google PageSpeed crucifies my site for image size and I can't blame them: I have a regex routine that searches for the first image in a post and uses that as the post image, but the routine doesn't optimize images, so if the image is very large, I may scale it down with HTML attributes but the download size is still massive.</p>
                     <div class="bg-code-snippet">
-                      <input id="input-js" type="radio" name="js-console" checked>
-                      <label class="bg-uppercase" for="input-js">JavaScript</label>
-                      <input id="display-result" type="radio" name="js-console">
-                      <label class="bg-uppercase" for="display-result">Result</label>
+                      <input id="input-js-article-4" type="radio" name="js-console-article-4" checked>
+                      <label class="bg-uppercase" for="input-js-article-4">JavaScript</label>
+                      <input id="display-result-article-4" type="radio" name="js-console-article-4">
+                      <label class="bg-uppercase" for="display-result-article-4">Result</label>
                       <div class="console">
                         <span class="js-code"><span class="js-code-comment-and-line-number">1</span> &nbsp;<span class="js-code-keyword">var</span> <span class="js-code-var-name">myArray</span> = [<span class="js-code-number">6</span>, <span class="js-code-number">5</span>, <span class="js-code-number">4</span>, <span class="js-code-number">3</span>, <span class="js-code-number">1</span>, <span class="js-code-number">2</span>];</span>
                         <br>
@@ -1149,10 +1144,10 @@
                     </header>
                     <p>There are many use cases for a service like Cloudinary. When I think about my site, I see one obvious need: resized, optimized images on post list pages. Google PageSpeed crucifies my site for image size and I can't blame them: I have a regex routine that searches for the first image in a post and uses that as the post image, but the routine doesn't optimize images, so if the image is very large, I may scale it down with HTML attributes but the download size is still massive.</p>
                     <div class="bg-code-snippet">
-                      <input id="input-js" type="radio" name="js-console" checked>
-                      <label class="bg-uppercase" for="input-js">JavaScript</label>
-                      <input id="display-result" type="radio" name="js-console">
-                      <label class="bg-uppercase" for="display-result">Result</label>
+                      <input id="input-js-article-5" type="radio" name="js-console-article-5" checked>
+                      <label class="bg-uppercase" for="input-js-article-5">JavaScript</label>
+                      <input id="display-result-article-5" type="radio" name="js-console-article-5">
+                      <label class="bg-uppercase" for="display-result-article-5">Result</label>
                       <div class="console">
                         <span class="js-code"><span class="js-code-comment-and-line-number">1</span> &nbsp;<span class="js-code-keyword">var</span> <span class="js-code-var-name">myArray</span> = [<span class="js-code-number">6</span>, <span class="js-code-number">5</span>, <span class="js-code-number">4</span>, <span class="js-code-number">3</span>, <span class="js-code-number">1</span>, <span class="js-code-number">2</span>];</span>
                         <br>
@@ -1361,10 +1356,10 @@
                     </header>
                     <p>There are many use cases for a service like Cloudinary. When I think about my site, I see one obvious need: resized, optimized images on post list pages. Google PageSpeed crucifies my site for image size and I can't blame them: I have a regex routine that searches for the first image in a post and uses that as the post image, but the routine doesn't optimize images, so if the image is very large, I may scale it down with HTML attributes but the download size is still massive.</p>
                     <div class="bg-code-snippet">
-                      <input id="input-js" type="radio" name="js-console" checked>
-                      <label class="bg-uppercase" for="input-js">JavaScript</label>
-                      <input id="display-result" type="radio" name="js-console">
-                      <label class="bg-uppercase" for="display-result">Result</label>
+                      <input id="input-js-article-6" type="radio" name="js-console-article-6" checked>
+                      <label class="bg-uppercase" for="input-js-article-6">JavaScript</label>
+                      <input id="display-result-article-6" type="radio" name="js-console-article-6">
+                      <label class="bg-uppercase" for="display-result-article-6">Result</label>
                       <div class="console">
                         <span class="js-code"><span class="js-code-comment-and-line-number">1</span> &nbsp;<span class="js-code-keyword">var</span> <span class="js-code-var-name">myArray</span> = [<span class="js-code-number">6</span>, <span class="js-code-number">5</span>, <span class="js-code-number">4</span>, <span class="js-code-number">3</span>, <span class="js-code-number">1</span>, <span class="js-code-number">2</span>];</span>
                         <br>
@@ -1573,10 +1568,10 @@
                     </header>
                     <p>There are many use cases for a service like Cloudinary. When I think about my site, I see one obvious need: resized, optimized images on post list pages. Google PageSpeed crucifies my site for image size and I can't blame them: I have a regex routine that searches for the first image in a post and uses that as the post image, but the routine doesn't optimize images, so if the image is very large, I may scale it down with HTML attributes but the download size is still massive.</p>
                     <div class="bg-code-snippet">
-                      <input id="input-js" type="radio" name="js-console" checked>
-                      <label class="bg-uppercase" for="input-js">JavaScript</label>
-                      <input id="display-result" type="radio" name="js-console">
-                      <label class="bg-uppercase" for="display-result">Result</label>
+                      <input id="input-js-article-7" type="radio" name="js-console-article-7" checked>
+                      <label class="bg-uppercase" for="input-js-article-7">JavaScript</label>
+                      <input id="display-result-article-7" type="radio" name="js-console-article-7">
+                      <label class="bg-uppercase" for="display-result-article-7">Result</label>
                       <div class="console">
                         <span class="js-code"><span class="js-code-comment-and-line-number">1</span> &nbsp;<span class="js-code-keyword">var</span> <span class="js-code-var-name">myArray</span> = [<span class="js-code-number">6</span>, <span class="js-code-number">5</span>, <span class="js-code-number">4</span>, <span class="js-code-number">3</span>, <span class="js-code-number">1</span>, <span class="js-code-number">2</span>];</span>
                         <br>
@@ -1785,10 +1780,10 @@
                     </header>
                     <p>There are many use cases for a service like Cloudinary. When I think about my site, I see one obvious need: resized, optimized images on post list pages. Google PageSpeed crucifies my site for image size and I can't blame them: I have a regex routine that searches for the first image in a post and uses that as the post image, but the routine doesn't optimize images, so if the image is very large, I may scale it down with HTML attributes but the download size is still massive.</p>
                     <div class="bg-code-snippet">
-                      <input id="input-js" type="radio" name="js-console" checked>
-                      <label class="bg-uppercase" for="input-js">JavaScript</label>
-                      <input id="display-result" type="radio" name="js-console">
-                      <label class="bg-uppercase" for="display-result">Result</label>
+                      <input id="input-js-article-8" type="radio" name="js-console-article-8" checked>
+                      <label class="bg-uppercase" for="input-js-article-8">JavaScript</label>
+                      <input id="display-result-article-8" type="radio" name="js-console-article-8">
+                      <label class="bg-uppercase" for="display-result-article-8">Result</label>
                       <div class="console">
                         <span class="js-code"><span class="js-code-comment-and-line-number">1</span> &nbsp;<span class="js-code-keyword">var</span> <span class="js-code-var-name">myArray</span> = [<span class="js-code-number">6</span>, <span class="js-code-number">5</span>, <span class="js-code-number">4</span>, <span class="js-code-number">3</span>, <span class="js-code-number">1</span>, <span class="js-code-number">2</span>];</span>
                         <br>

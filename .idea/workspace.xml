@@ -4,7 +4,6 @@
     <list default="true" id="ce921f4b-bb07-4af8-887c-d80086f675fc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header-footer/header-footer.css" afterPath="$PROJECT_DIR$/header-footer/header-footer.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header-footer/index.html" afterPath="$PROJECT_DIR$/header-footer/index.html" />
     </list>
     <ignored path="dec-hackathon.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,10 +29,10 @@
       <file leaf-file-name="header-footer.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/header-footer/header-footer.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="145" column="17" selection-start-line="145" selection-start-column="17" selection-end-line="145" selection-end-column="17" />
+            <state relative-caret-position="381">
+              <caret line="560" column="0" selection-start-line="560" selection-start-column="0" selection-end-line="560" selection-end-column="0" />
               <folding>
-                <marker date="1484265347000" expanded="true" signature="1137:1296" ph="{...}" />
+                <marker date="1484266254000" expanded="true" signature="1137:1296" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -42,7 +41,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/header-footer/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2422">
+            <state relative-caret-position="15">
               <caret line="75" column="3" selection-start-line="75" selection-start-column="3" selection-end-line="75" selection-end-column="3" />
               <folding />
             </state>
@@ -60,6 +59,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/header-footer/index.html" />
         <option value="$PROJECT_DIR$/header-footer-height/header-footer.css" />
+        <option value="$PROJECT_DIR$/header-footer-no-opacity/header-footer.css" />
         <option value="$PROJECT_DIR$/header-footer/header-footer.css" />
       </list>
     </option>
@@ -71,8 +71,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1732" />
-    <option name="y" value="133" />
+    <option name="x" value="2289" />
+    <option name="y" value="23" />
     <option name="width" value="1337" />
     <option name="height" value="873" />
   </component>
@@ -101,7 +101,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -130,27 +130,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="header-footer-height" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dec-hackathon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dec-hackathon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="header-footer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -235,18 +221,19 @@
       <workItem from="1484156933578" duration="575000" />
       <workItem from="1484157555905" duration="16248000" />
       <workItem from="1484263267290" duration="104000" />
-      <workItem from="1484263410248" duration="1682000" />
+      <workItem from="1484263410248" duration="2312000" />
+      <workItem from="1484266161764" duration="126000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19547000" />
+    <option name="totallyTimeSpent" value="20303000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1732" y="133" width="1337" height="873" extended-state="0" />
+    <frame x="2289" y="23" width="1337" height="873" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24942966" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24942966" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -280,22 +267,8 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/header-footer-height/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header-footer-height/header-footer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/header-footer-height/index.html" />
+    <entry file="file://$PROJECT_DIR$/header-footer-height/header-footer.css" />
     <entry file="file://$PROJECT_DIR$/header-footer/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1050">
@@ -309,7 +282,7 @@
         <state relative-caret-position="855">
           <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
           <folding>
-            <marker date="1484265347000" expanded="true" signature="1137:1296" ph="{...}" />
+            <marker date="1484266254000" expanded="true" signature="1137:1296" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -319,25 +292,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1484265347000" expanded="true" signature="1137:1296" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header-footer/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header-footer/header-footer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1484265347000" expanded="true" signature="1137:1296" ph="{...}" />
+            <marker date="1484266254000" expanded="true" signature="1137:1296" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -355,7 +310,25 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1484265347000" expanded="true" signature="1137:1296" ph="{...}" />
+            <marker date="1484266254000" expanded="true" signature="1137:1296" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header-footer/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header-footer/header-footer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1484266254000" expanded="true" signature="1137:1296" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -377,25 +350,27 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/header-footer-height/index.html">
+    <entry file="file://$PROJECT_DIR$/header-footer-height/index.html" />
+    <entry file="file://$PROJECT_DIR$/header-footer-height/header-footer.css" />
+    <entry file="file://$PROJECT_DIR$/header-footer-no-opacity/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        <state relative-caret-position="180">
+          <caret line="10" column="118" selection-start-line="10" selection-start-column="118" selection-end-line="10" selection-end-column="118" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/header-footer-height/header-footer.css">
+    <entry file="file://$PROJECT_DIR$/header-footer-no-opacity/header-footer.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="560" column="26" selection-start-line="560" selection-start-column="25" selection-end-line="560" selection-end-column="26" />
+        <state relative-caret-position="709">
+          <caret line="551" column="10" selection-start-line="551" selection-start-column="10" selection-end-line="551" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/header-footer/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2422">
+        <state relative-caret-position="15">
           <caret line="75" column="3" selection-start-line="75" selection-start-column="3" selection-end-line="75" selection-end-column="3" />
           <folding />
         </state>
@@ -403,10 +378,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/header-footer/header-footer.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="145" column="17" selection-start-line="145" selection-start-column="17" selection-end-line="145" selection-end-column="17" />
+        <state relative-caret-position="381">
+          <caret line="560" column="0" selection-start-line="560" selection-start-column="0" selection-end-line="560" selection-end-column="0" />
           <folding>
-            <marker date="1484265347000" expanded="true" signature="1137:1296" ph="{...}" />
+            <marker date="1484266254000" expanded="true" signature="1137:1296" ph="{...}" />
           </folding>
         </state>
       </provider>

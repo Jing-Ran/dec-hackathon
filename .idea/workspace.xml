@@ -29,10 +29,10 @@
       <file leaf-file-name="header-footer.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/header-footer/header-footer.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="560" column="0" selection-start-line="560" selection-start-column="0" selection-end-line="560" selection-end-column="0" />
+            <state relative-caret-position="471">
+              <caret line="566" column="55" selection-start-line="566" selection-start-column="55" selection-end-line="566" selection-end-column="55" />
               <folding>
-                <marker date="1484266254000" expanded="true" signature="1137:1296" ph="{...}" />
+                <marker date="1484270158000" expanded="true" signature="1137:1296" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -71,7 +71,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2289" />
+    <option name="x" value="1440" />
     <option name="y" value="23" />
     <option name="width" value="1337" />
     <option name="height" value="873" />
@@ -222,15 +222,15 @@
       <workItem from="1484157555905" duration="16248000" />
       <workItem from="1484263267290" duration="104000" />
       <workItem from="1484263410248" duration="2312000" />
-      <workItem from="1484266161764" duration="126000" />
+      <workItem from="1484266161764" duration="368000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20303000" />
+    <option name="totallyTimeSpent" value="20545000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2289" y="23" width="1337" height="873" extended-state="0" />
+    <frame x="1440" y="23" width="1337" height="873" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24942966" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -282,7 +282,7 @@
         <state relative-caret-position="855">
           <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
           <folding>
-            <marker date="1484266254000" expanded="true" signature="1137:1296" ph="{...}" />
+            <marker date="1484270158000" expanded="true" signature="1137:1296" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -292,25 +292,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1484266254000" expanded="true" signature="1137:1296" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header-footer/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header-footer/header-footer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1484266254000" expanded="true" signature="1137:1296" ph="{...}" />
+            <marker date="1484270158000" expanded="true" signature="1137:1296" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -328,7 +310,25 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1484266254000" expanded="true" signature="1137:1296" ph="{...}" />
+            <marker date="1484270158000" expanded="true" signature="1137:1296" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header-footer/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header-footer/header-footer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1484270158000" expanded="true" signature="1137:1296" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -378,10 +378,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/header-footer/header-footer.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="560" column="0" selection-start-line="560" selection-start-column="0" selection-end-line="560" selection-end-column="0" />
+        <state relative-caret-position="471">
+          <caret line="566" column="55" selection-start-line="566" selection-start-column="55" selection-end-line="566" selection-end-column="55" />
           <folding>
-            <marker date="1484266254000" expanded="true" signature="1137:1296" ph="{...}" />
+            <marker date="1484270158000" expanded="true" signature="1137:1296" ph="{...}" />
           </folding>
         </state>
       </provider>

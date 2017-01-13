@@ -560,10 +560,10 @@ body {
 
 
   /* fade out animation time */
-  /*-webkit-transition: opacity 0.55s 0.2s, transform 0.6s 0.15s;*/
-  /*-moz-transition: opacity 0.55s 0.2s, transform 0.6s 0.15s;*/
-  /*-ms-transition: opacity 0.55s 0.2s, transform 0.6s 0.15s;*/
-  /*-o-transition: opacity 0.55s 0.2s, transform 0.6s 0.15s;*/
+  -webkit-transition: opacity 0.47s 0.2s, transform 0.6s 0.15s;
+  -moz-transition: opacity 0.47s 0.2s, transform 0.6s 0.15s;
+  -ms-transition: opacity 0.47s 0.2s, transform 0.6s 0.15s;
+  -o-transition: opacity 0.47s 0.2s, transform 0.6s 0.15s;
   transition: opacity 0.47s 0.2s, transform 0.6s 0.15s;
 
   /* easeOutExpo */

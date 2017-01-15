@@ -2,7 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce921f4b-bb07-4af8-887c-d80086f675fc" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/HELP-US-OUT.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/css/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/less/animated.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/less/bordered-pulled.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/less/core.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/less/fixed-width.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/less/font-awesome.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/less/icons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/less/larger.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/less/list.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/less/path.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/less/rotated-flipped.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/less/screen-reader.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/less/stacked.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/scss/_animated.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/scss/_bordered-pulled.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/scss/_core.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/scss/_fixed-width.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/scss/_icons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/scss/_larger.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/scss/_list.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/scss/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/scss/_path.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/scss/_rotated-flipped.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/scss/_screen-reader.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/scss/_stacked.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/scss/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/scss/font-awesome.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header-footer/header-footer.css" afterPath="$PROJECT_DIR$/header-footer/header-footer.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header-footer/index.html" afterPath="$PROJECT_DIR$/header-footer/index.html" />
     </list>
     <ignored path="dec-hackathon.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,10 +69,11 @@
           <file leaf-file-name="header-footer.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/header-footer/header-footer.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="291">
-                  <caret line="494" column="11" selection-start-line="494" selection-start-column="11" selection-end-line="494" selection-end-column="11" />
+                <state relative-caret-position="7410">
+                  <caret line="525" column="11" selection-start-line="525" selection-start-column="11" selection-end-line="525" selection-end-column="11" />
                   <folding>
-                    <marker date="1484276957000" expanded="true" signature="1137:1296" ph="{...}" />
+                    <marker date="1484457070000" expanded="true" signature="1137:1296" ph="{...}" />
+                    <marker date="1484457070000" expanded="true" signature="23836:24160" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -42,8 +82,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/header-footer/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="480">
-                  <caret line="82" column="40" selection-start-line="82" selection-start-column="40" selection-end-line="82" selection-end-column="40" />
+                <state relative-caret-position="105">
+                  <caret line="52" column="37" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
                   <folding />
                 </state>
               </provider>
@@ -52,14 +92,14 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="header-footer.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/header-footer/header-footer.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="638">
-                  <caret line="1446" column="1" selection-start-line="1446" selection-start-column="1" selection-end-line="1446" selection-end-column="1" />
+                <state relative-caret-position="4268">
+                  <caret line="356" column="35" selection-start-line="356" selection-start-column="35" selection-end-line="356" selection-end-column="35" />
                   <folding>
-                    <marker date="1484276957000" expanded="true" signature="1137:1296" ph="{...}" />
+                    <marker date="1484457070000" expanded="true" signature="1137:1296" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -78,8 +118,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/header-footer-height/header-footer.css" />
         <option value="$PROJECT_DIR$/header-footer-no-opacity/header-footer.css" />
-        <option value="$PROJECT_DIR$/header-footer/header-footer.css" />
         <option value="$PROJECT_DIR$/header-footer/index.html" />
+        <option value="$PROJECT_DIR$/header-footer/header-footer.css" />
       </list>
     </option>
   </component>
@@ -90,8 +130,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2254" />
-    <option name="y" value="56" />
+    <option name="x" value="2589" />
+    <option name="y" value="23" />
     <option name="width" value="1337" />
     <option name="height" value="873" />
   </component>
@@ -241,15 +281,16 @@
       <workItem from="1484157555905" duration="16248000" />
       <workItem from="1484263267290" duration="104000" />
       <workItem from="1484263410248" duration="2312000" />
-      <workItem from="1484266161764" duration="3310000" />
+      <workItem from="1484266161764" duration="3688000" />
+      <workItem from="1484435782070" duration="12774000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23487000" />
+    <option name="totallyTimeSpent" value="36639000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2254" y="56" width="1337" height="873" extended-state="0" />
+    <frame x="2589" y="23" width="1337" height="873" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24942966" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -286,6 +327,16 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/header-footer/header-footer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1484457070000" expanded="true" signature="1137:1296" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/header-footer-height/index.html" />
     <entry file="file://$PROJECT_DIR$/header-footer-height/header-footer.css" />
     <entry file="file://$PROJECT_DIR$/header-footer/index.html">
@@ -301,7 +352,7 @@
         <state relative-caret-position="855">
           <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
           <folding>
-            <marker date="1484276957000" expanded="true" signature="1137:1296" ph="{...}" />
+            <marker date="1484457070000" expanded="true" signature="1137:1296" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -311,25 +362,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1484276957000" expanded="true" signature="1137:1296" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header-footer/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header-footer/header-footer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1484276957000" expanded="true" signature="1137:1296" ph="{...}" />
+            <marker date="1484457070000" expanded="true" signature="1137:1296" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -347,7 +380,25 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1484276957000" expanded="true" signature="1137:1296" ph="{...}" />
+            <marker date="1484457070000" expanded="true" signature="1137:1296" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header-footer/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header-footer/header-footer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1484457070000" expanded="true" signature="1137:1296" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -371,37 +422,23 @@
     <entry file="file://$PROJECT_DIR$/.gitignore" />
     <entry file="file://$PROJECT_DIR$/header-footer-height/index.html" />
     <entry file="file://$PROJECT_DIR$/header-footer-height/header-footer.css" />
-    <entry file="file://$PROJECT_DIR$/header-footer-no-opacity/index.html">
+    <entry file="file://$PROJECT_DIR$/header-footer-no-opacity/index.html" />
+    <entry file="file://$PROJECT_DIR$/header-footer-no-opacity/header-footer.css" />
+    <entry file="file://$PROJECT_DIR$/header-footer/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="118" selection-start-line="10" selection-start-column="118" selection-end-line="10" selection-end-column="118" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header-footer-no-opacity/header-footer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="709">
-          <caret line="551" column="10" selection-start-line="551" selection-start-column="10" selection-end-line="551" selection-end-column="10" />
+        <state relative-caret-position="105">
+          <caret line="52" column="37" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/header-footer/header-footer.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="494" column="11" selection-start-line="494" selection-start-column="11" selection-end-line="494" selection-end-column="11" />
+        <state relative-caret-position="4268">
+          <caret line="356" column="35" selection-start-line="356" selection-start-column="35" selection-end-line="356" selection-end-column="35" />
           <folding>
-            <marker date="1484276957000" expanded="true" signature="1137:1296" ph="{...}" />
+            <marker date="1484457070000" expanded="true" signature="1137:1296" ph="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header-footer/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="82" column="40" selection-start-line="82" selection-start-column="40" selection-end-line="82" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>

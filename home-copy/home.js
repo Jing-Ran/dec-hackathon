@@ -152,7 +152,7 @@ function expandArticle(index) {
 
   var contentTop = contentWrap[index].getBoundingClientRect().top;
   //Bring content up a bit
-  TweenMax.to(contentWrap[index], 0.8, {
+  TweenMax.to(contentWrap[index], 1, {
     top: 100 - contentTop,
     ease: Expo.easeOut,
   });
@@ -198,6 +198,9 @@ function expandArticle(index) {
   setTimeout(function() {timer = true}, 1000);
 
   document.addEventListener("scroll", limitScroll);
+
+  //JR: add code for back-to-top btn
+  fadeInOut();
 }
 
 
@@ -227,7 +230,7 @@ function closeArticle(index) {
 
   //Compress content
   TweenMax.to(content[index], 0.5, {
-    height: 350,
+    height: 354,
     ease: Expo.easeOut
   });
 
@@ -257,4 +260,47 @@ function closeArticle(index) {
 
   //Remove limit on scroll
   document.removeEventListener("scroll", limitScroll);
+
+  //JR: add code for back-to-top btn
+  scrollTopPos = 0;
+  fadeInOut();
 }
+
+
+// JR - Back-to-top for pages have "quick read"
+var backTopBtn = document.getElementById("jr-back-top");
+var backTopTimer;
+
+function backToTop() {
+  console.log("enter back to top");
+  // document.documentElement for FireFox
+  console.log('scroll to position in backtotop ' + scrollTopPos);
+  if (document.body.scrollTop > scrollTopPos || document.documentElement.scrollTop > scrollTopPos) {
+    window.scrollBy(0, -40);
+    backTopTimer = window.setTimeout('backToTop()', 10);
+  } else {
+    window.clearTimeout(backTopTimer);
+  }
+  return false;
+}
+
+function fadeInOut() {
+  // scrollTop is equal to or greater than 200px
+  if (document.body.scrollTop >= scrollTopPos + 200 || document.documentElement.scrollTop >= scrollTopPos + 200) {
+    backTopBtn.style.visibility = 'visible';
+    backTopBtn.className = 'jr-fade-in';
+  } else { // scrollTop is less than 200px
+    backTopBtn.className = 'jr-fade-out';
+  }
+}
+
+
+backTopBtn.onclick = function () {
+  backToTop();
+  return false; // prevent browser default behaviors
+};
+
+window.onscroll = function () {
+  fadeInOut();
+  return false; // prevent browser default behaviors
+};

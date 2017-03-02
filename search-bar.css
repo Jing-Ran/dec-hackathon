@@ -1,0 +1,126 @@
+/*Box sizing and placeholder reset*/
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+*::-webkit-input-placeholder {
+  color: #bbc7c9;
+}
+
+*:-moz-placeholder {
+  /* FF 4-18 */
+  color: #bbc7c9;
+}
+
+*::-moz-placeholder {
+  /* FF 19+ */
+  color: #bbc7c9;
+}
+
+*:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #bbc7c9;
+}
+
+
+/*Search bar*/
+
+.search-wrap {
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: -10px;
+}
+
+.search-main__label {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  display: flex;
+
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.search-main__label .material-icons {
+  font-size: 30px;
+  color: #bbc7c9;
+}
+
+.search-main__input {
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  background-color: #eff3f8;
+  border: 1px solid #d9e2ec;
+  border-radius: 4px;
+  font-size: 20px;
+  padding: 10px 10px 10px 50px;
+  transition: border 0.2s;
+}
+
+.search-main__input:focus {
+  outline: none;
+  border: 1px solid #999;
+  transition: border 0.2s;
+}
+
+@media all and (max-width: 1240px) {
+  .search-main__label .material-icons {
+    font-size: 28px;
+  }
+
+  .search-main__input {
+    font-size: 18px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .search-wrap {
+    margin-top: 16px;
+    margin-bottom: -12px;
+  }
+
+  .search-main__label .material-icons {
+    font-size: 26px;
+  }
+
+  .search-main__input {
+    font-size: 16px;
+    padding-left: 45px;
+  }
+}
+
+@media all and (max-width: 550px) {
+  .search-wrap {
+    margin-top: 14px;
+    margin-bottom: -14px;
+  }
+
+  .search-main__label .material-icons {
+    font-size: 24px;
+  }
+
+  .search-main__input {
+    font-size: 14px;
+    padding: 9px 9px 9px 40px;
+  }
+}
+
+@media all and (max-width: 360px) {
+  .search-main__label .material-icons {
+    font-size: 22px;
+  }
+
+  .search-main__input {
+    padding: 8px 8px 8px 37px;
+  }
+}

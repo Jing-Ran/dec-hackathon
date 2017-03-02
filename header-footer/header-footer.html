@@ -12,19 +12,19 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="../icomoon/style.css">
   <link rel="stylesheet" href="header-footer.css">
+  <link rel="stylesheet" href="../archive/archive.css">
+  <link rel="stylesheet" href="../search-bar.css">
   <link rel="icon" type="image/x-icon" href="../images/favicon.png">
-  <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
 </head>
 
 <body>
   <!-- Header starts here -->
   <input type="checkbox" name="dropdown-checkbox" id="jr-dropdown-checkbox">
   <header class="jr-header jr-header-home">
-
     <!--  Header logo  -->
     <div class="jr-header-wrapper">
       <div class="jr-header__logo jr-header__item">
-        <a href="https://bovacademy.com/index.html">
+        <a href="../home/home.html">
           <img class="jr-header__logo__img" src="../images/BovAcademy_logo_head.png">
           <div class="jr-header__logo__txt">
             <p class="jr-header__logo__txt--top">
@@ -74,7 +74,6 @@
             </div>
           </div>
           <div class="jr-header__dropdown__arrow"></div>
-          <!--<span class="fa fa-caret-up" aria-hidden="true"></span>-->
         </label>
       </div>
     </div>
@@ -84,78 +83,9 @@
   <!-- dropdown menu starts here-->
   <div class="jr-dropdown-menu-wrapper">
     <div class="jr-dropdown-menu">
-      <div class="jr-dropdown-menu__triangle"></div>
-      <label for="jr-dropdown-checkbox" class="jr-dropdown-close">
-        <i class="material-icons">close</i>
-      </label>
-
       <ul>
-        <li id="jr-labs">
-          <a href="#">
-            <div class="jr-dropdown-menu__logo">
-              <div class="jr-dropdown-menu__logo__outer">
-                <div class="jr-dropdown-menu__logo__inner">
-                  <img src="../images/labs-white.png"
-                       class="jr-dropdown-menu__logo__img jr-dropdown-menu__logo__img-white">
-                  <img src="../images/labs-color.png"
-                       class="jr-dropdown-menu__logo__img jr-dropdown-menu__logo__img-color">
-                </div>
-              </div>
-            </div>
-            <p>Labs</p>
-          </a>
-        </li>
-
-        <li id="jr-students">
-          <a href="#">
-            <div class="jr-dropdown-menu__logo logo-students">
-              <div class="jr-dropdown-menu__logo__outer">
-                <div class="jr-dropdown-menu__logo__inner">
-                  <img src="../images/students-white.png"
-                       class="jr-dropdown-menu__logo__img jr-dropdown-menu__logo__img-white">
-                  <img src="../images/students-color.png"
-                       class="jr-dropdown-menu__logo__img jr-dropdown-menu__logo__img-color">
-                </div>
-              </div>
-            </div>
-            <p>Students</p>
-          </a>
-        </li>
-
-        <li id="jr-enlightenment">
-          <a href="#">
-            <div class="jr-dropdown-menu__logo logo-students">
-              <div class="jr-dropdown-menu__logo__outer">
-                <div class="jr-dropdown-menu__logo__inner">
-                  <img src="../images/enlightenment-white.png"
-                       class="jr-dropdown-menu__logo__img jr-dropdown-menu__logo__img-white">
-                  <img src="../images/enlightenment-color.png"
-                       class="jr-dropdown-menu__logo__img jr-dropdown-menu__logo__img-color">
-                </div>
-              </div>
-            </div>
-            <p>Enlightenment</p>
-          </a>
-        </li>
-
-        <li id="jr-learn">
-          <a href="#">
-            <div class="jr-dropdown-menu__logo logo-students">
-              <div class="jr-dropdown-menu__logo__outer">
-                <div class="jr-dropdown-menu__logo__inner">
-                  <img src="../images/learn-white.png"
-                       class="jr-dropdown-menu__logo__img jr-dropdown-menu__logo__img-white">
-                  <img src="../images/learn-color.png"
-                       class="jr-dropdown-menu__logo__img jr-dropdown-menu__logo__img-color">
-                </div>
-              </div>
-            </div>
-            <p>Learn</p>
-          </a>
-        </li>
-
         <li id="jr-blog">
-          <a href="#">
+          <a href="../home/home.html">
             <div class="jr-dropdown-menu__logo logo-students">
               <div class="jr-dropdown-menu__logo__outer">
                 <div class="jr-dropdown-menu__logo__inner">
@@ -170,40 +100,57 @@
           </a>
         </li>
 
-        <li id="jr-books">
-          <a href="#">
+        <li id="jr-enlightenment">
+          <a href="https://study.moderndeveloper.com/student-home-page/">
             <div class="jr-dropdown-menu__logo logo-students">
               <div class="jr-dropdown-menu__logo__outer">
                 <div class="jr-dropdown-menu__logo__inner">
-                  <img src="../images/books-white.png"
-                       class="jr-dropdown-menu__logo__img jr-dropdown-menu__logo__img-white" style="width: 20px">
-                  <img src="../images/books-color.png"
-                       class="jr-dropdown-menu__logo__img jr-dropdown-menu__logo__img-color" style="width: 20px">
+                  <img src="../images/enlightenment-white.png"
+                       class="jr-dropdown-menu__logo__img jr-dropdown-menu__logo__img-white">
+                  <img src="../images/enlightenment-color.png"
+                       class="jr-dropdown-menu__logo__img jr-dropdown-menu__logo__img-color">
                 </div>
               </div>
             </div>
-            <p>Books</p>
+            <p>Study</p>
           </a>
         </li>
 
-        <li id="jr-tech">
-          <a href="#">
+        <li id="jr-learn">
+          <a href="https://bovacademy.com/">
             <div class="jr-dropdown-menu__logo logo-students">
               <div class="jr-dropdown-menu__logo__outer">
                 <div class="jr-dropdown-menu__logo__inner">
-                  <img src="../images/tech-white.png"
-                       class="jr-dropdown-menu__logo__img jr-dropdown-menu__logo__img-white" style="width: 22px">
-                  <img src="../images/tech-color.png"
-                       class="jr-dropdown-menu__logo__img jr-dropdown-menu__logo__img-color" style="width: 22px">
+                  <img src="../images/learn-white.png"
+                       class="jr-dropdown-menu__logo__img jr-dropdown-menu__logo__img-white">
+                  <img src="../images/learn-color.png"
+                       class="jr-dropdown-menu__logo__img jr-dropdown-menu__logo__img-color">
                 </div>
               </div>
             </div>
-            <p>Tech Guide</p>
+            <p>Learn</p>
           </a>
         </li>
+
+        <!--<li id="jr-students">-->
+          <!--&lt;!&ndash; Team 4 needs an URL &ndash;&gt;-->
+          <!--<a href="#">-->
+            <!--<div class="jr-dropdown-menu__logo logo-students">-->
+              <!--<div class="jr-dropdown-menu__logo__outer">-->
+                <!--<div class="jr-dropdown-menu__logo__inner">-->
+                  <!--<img src="../images/students-white.png"-->
+                       <!--class="jr-dropdown-menu__logo__img jr-dropdown-menu__logo__img-white">-->
+                  <!--<img src="../images/students-color.png"-->
+                       <!--class="jr-dropdown-menu__logo__img jr-dropdown-menu__logo__img-color">-->
+                <!--</div>-->
+              <!--</div>-->
+            <!--</div>-->
+            <!--<p>Students</p>-->
+          <!--</a>-->
+        <!--</li>-->
 
         <li id="jr-qa">
-          <a href="#">
+          <a href="https://qa.moderndeveloper.com/">
             <div class="jr-dropdown-menu__logo logo-students">
               <div class="jr-dropdown-menu__logo__outer">
                 <div class="jr-dropdown-menu__logo__inner">
@@ -217,30 +164,27 @@
             <p>QA</p>
           </a>
         </li>
-
-        <li id="jr-know">
-          <a href="#">
-            <div class="jr-dropdown-menu__logo logo-students">
-              <div class="jr-dropdown-menu__logo__outer">
-                <div class="jr-dropdown-menu__logo__inner">
-                  <img src="../images/know-white.png"
-                       class="jr-dropdown-menu__logo__img jr-dropdown-menu__logo__img-white" style="width: 26px;">
-                  <img src="../images/know-color.png"
-                       class="jr-dropdown-menu__logo__img jr-dropdown-menu__logo__img-color" style="width: 26px;">
-                </div>
-              </div>
-            </div>
-            <p>Know</p>
-          </a>
-        </li>
       </ul>
     </div>
   </div>
   <!-- dropdown menu ends here -->
 
-  <!-- filter starts here -->
-  <div class="jr-filter"></div>
-  <!-- filter ends here -->
+  <!-- Label starts here -->
+  <!--  click anywhere to close dropdown menu -->
+  <label for="jr-dropdown-checkbox" class="jr-filter"></label>
+  <!-- Label ends here -->
+
+  <!-- Subscribe Button -->
+  <div class="lf-subscribe">
+    <div class="lf-subscribe__element lf-subscribe__item" id="lf-subscribe__element-title" >Blog's Newsletter <div id="lf-subscribe-close" onclick="closeSubscribe()"><i class="material-icons">close</i></div></div>
+    <div id="lf-subscribe__element-thanks">Thank you. <br/>Check your email to confirm.</div>
+    <form>
+      <div class="lf-subscribe__item" id="lf-subscribe__element-firstname"><input type="text" placeholder="First Name"></div>
+      <div class="lf-subscribe__item"id="lf-subscribe__element-email"><input type="text" placeholder="Email"></div>
+    </form>
+    <div class="lf-subscribe__item" id="lf-subscribe__element-teaser" onclick="openSubscribe()" >Subscribe</div>
+  </div>
+  <!-- End Subscribe Button -->
 
   <div class="container">
     <div class="content-wrap">
@@ -278,17 +222,17 @@
     <div class="jr-footer__social">
       <ul class="jr-menu jr-menu--social">
         <li class="jr-menu__item jr-menu__item--social">
-          <a href="https://twitter.com/bovacademy" target="_blank">
+          <a href="https://twitter.com/bovacademy" target="_blank" aria-label="twitter" title="twitter">
             <i class="icon-twitter" aria-hidden="true"></i>
           </a>
         </li>
         <li class="jr-menu__item jr-menu__item--social">
-          <a href="https://www.instagram.com/bovacademy/" target="_blank">
+          <a href="https://www.instagram.com/bovacademy/" target="_blank" aria-label="instagram" title="instagram">
             <i class="icon-instagram" aria-hidden="true"></i>
           </a>
         </li>
         <li class="jr-menu__item jr-menu__item--social">
-          <a href="http://encyclopedia.moderndeveloper.com/" target="_blank">
+          <a href="http://encyclopedia.moderndeveloper.com/" target="_blank" aria-label="encyclopedia" title="encyclopedia">
             <img src="../images/Enlightenment_temp_icon.png">
           </a>
         </li>
@@ -299,50 +243,63 @@
 
     <!-- Footer developer section-->
     <div class="jr-footer__developers">
-      <p>Site developed by Bov Academy Students</p>
+      <p>Site Developed by Bov Academy Students</p>
       <div class="jr-developers">
         <div class="row">
           <!-- Each developer -->
           <div class="jr-developers__each">
-            <div>
-              <img src="../images/jake.jpg" class="jr-developers__each__img"
-                 id="pic-jake">
-            </div>
-            <p class="jr-developers__each__name">Jake Tom</p>
+            <!-- Need to add url in the next update -->
+            <a href="#?">
+              <div>
+                <img src="../images/jake.jpg" class="jr-developers__each__img"
+                     id="pic-jake">
+              </div>
+              <p class="jr-developers__each__name">Jake Tom</p>
+            </a>
           </div>
 
           <!-- Each developer -->
           <div class="jr-developers__each">
-            <div>
-              <img src="../images/brent.jpg" class="jr-developers__each__img"
-                   id="pic-brent">
-            </div>
-            <p class="jr-developers__each__name">Brent Guffens</p>
+            <!-- Need to add url in the next update -->
+            <a href="#?">
+              <div>
+                <img src="../images/brent.jpg" class="jr-developers__each__img"
+                     id="pic-brent">
+              </div>
+              <p class="jr-developers__each__name">Brent Guffens</p>
+            </a>
           </div>
         </div>
 
         <div class="row">
           <!-- Each developer -->
           <div class="jr-developers__each">
-            <div>
-              <img src="../images/lena.jpg" class="jr-developers__each__img"
-                   id="pic-lena">
-            </div>
-            <p class="jr-developers__each__name">Lena Faure</p>
+            <!-- Need to add url in the next update -->
+            <a href="#?">
+              <div>
+                <img src="../images/lena.jpg" class="jr-developers__each__img"
+                     id="pic-lena">
+              </div>
+              <p class="jr-developers__each__name">Lena Faure</p>
+            </a>
           </div>
 
           <!-- Each developer -->
           <div class="jr-developers__each">
-            <div>
-              <img src="../images/jing.jpg" class="jr-developers__each__img"
-                   id="pic-jing">
-            </div>
-            <p class="jr-developers__each__name">Jing Ran</p>
+            <!-- Need to add url in the next update -->
+            <a href="#?">
+              <div>
+                <img src="../images/jing.jpg" class="jr-developers__each__img"
+                     id="pic-jing">
+              </div>
+              <p class="jr-developers__each__name">Jing Ran</p>
+            </a>
           </div>
         </div>
-
       </div>
     </div>
+    <!-- End of footer developer section-->
+
   </footer>
   <!-- Footer ends here -->
 

@@ -14,13 +14,13 @@
   <link rel="stylesheet" href="../icomoon/style.css">
   <link rel="stylesheet" href="../header-footer/header-footer.css">
   <link rel="stylesheet" href="archive.css">
+  <link rel="stylesheet" href="../search-bar.css">
 </head>
 
 <body>
 <!-- Header starts here -->
 <input type="checkbox" name="dropdown-checkbox" id="jr-dropdown-checkbox">
 <header class="jr-header jr-header-archive">
-
   <!--  Header logo  -->
   <div class="jr-header-wrapper">
     <div class="jr-header__logo jr-header__item">
@@ -73,7 +73,7 @@
             <span class="dot" id="l-blue"></span>
           </div>
         </div>
-        <i class="material-icons">arrow_drop_up</i>
+        <div class="jr-header__dropdown__arrow"></div>
       </label>
     </div>
   </div>
@@ -82,8 +82,8 @@
 
 <!-- dropdown menu starts here-->
 <div class="jr-dropdown-menu-wrapper">
-  <div class="jr-dropdown-menu__triangle"></div>
   <div class="jr-dropdown-menu">
+    <div class="jr-dropdown-menu__triangle"></div>
     <label for="jr-dropdown-checkbox" class="jr-dropdown-close">
       <i class="material-icons">close</i>
     </label>
@@ -243,12 +243,13 @@
 
   <!-- Subscribe Button -->
   <div class="lf-subscribe">
-    <div class="lf-subscribe__element" id="lf-subscribe__element-title" >Blog's Newsletter <a class="lf-subscribe-close" href="#" onclick="closeSubscribe()"><i class="material-icons">close</i></a></div>
-      <form>
-        <div id="lf-subscribe__element-firstname"><input type="text" placeholder="First Name"></div>
-        <div id="lf-subscribe__element-email"><input type="text" placeholder="Email"></div>
+    <div class="lf-subscribe__element lf-subscribe__item" id="lf-subscribe__element-title" >Blog's Newsletter <div id="lf-subscribe-close" onclick="closeSubscribe()"><i class="material-icons">close</i></div></div>
+    <div id="lf-subscribe__element-thanks">Thank you. <br/>Check your email to confirm.</div>
+      <form class="lf-side-form" onsubmit="return false">
+        <div class="lf-subscribe__item" id="lf-subscribe__element-firstname"><span class="lf-form-error lf-side__empty-name"></span><input type="text" placeholder="First Name"></div>
+        <div class="lf-subscribe__item" id="lf-subscribe__element-email"><span class="lf-side__empty-email lf-form-error"></span><input type="text" placeholder="Email" value=""></div>
+        <button type="submit" class="lf-subscribe__item" id="lf-subscribe__element-teaser" onclick="openSubscribe()" >Subscribe</button>
       </form>
-    <div id="lf-subscribe__element-teaser" onclick="openSubscribe()" >Subscribe</div>
   </div>
   <!-- End Subscribe Button -->
 
@@ -336,97 +337,111 @@
     </div>
   </div>
 
-  <footer class="jr-footer">
-    <!-- Footer menu bar -->
-    <ul class="jr-menu jr-menu--footer">
-      <li class="jr-menu__item jr-menu__item--footer">
-        <a href="https://bovacademy.com/index.html" target="_blank">Home</a>
+<!-- Footer starts here -->
+<footer class="jr-footer">
+  <!-- Footer menu bar -->
+  <ul class="jr-menu jr-menu--footer">
+    <li class="jr-menu__item jr-menu__item--footer">
+      <a href="https://bovacademy.com/index.html" target="_blank">Home</a>
+    </li>
+    <li class="jr-menu__item jr-menu__item--footer">
+      <a href="https://bovacademy.com/programs-and-career-paths.html" target="_blank">Programs and career paths</a>
+    </li>
+    <li class="jr-menu__item jr-menu__item--footer">
+      <a href="https://bovacademy.com/mission.html" target="_blank">Our mission</a>
+    </li>
+    <li class="jr-menu__item jr-menu__item--footer">
+      <a href="https://bovacademy.com/careers.html" target="_blank">Careers</a>
+    </li>
+    <li class="jr-menu__item jr-menu__item--footer">
+      <a href="https://bovacademy.com/contact.html" target="_blank">Contact</a>
+    </li>
+  </ul>
+
+  <!-- Footer social bar -->
+  <div class="jr-footer__social">
+    <ul class="jr-menu jr-menu--social">
+      <li class="jr-menu__item jr-menu__item--social">
+        <a href="https://twitter.com/bovacademy" target="_blank">
+          <i class="icon-twitter" aria-hidden="true"></i>
+        </a>
       </li>
-      <li class="jr-menu__item jr-menu__item--footer">
-        <a href="https://bovacademy.com/programs-and-career-paths.html" target="_blank">Programs and career paths</a>
+      <li class="jr-menu__item jr-menu__item--social">
+        <a href="https://www.instagram.com/bovacademy/" target="_blank">
+          <i class="icon-instagram" aria-hidden="true"></i>
+        </a>
       </li>
-      <li class="jr-menu__item jr-menu__item--footer">
-        <a href="https://bovacademy.com/mission.html" target="_blank">Our mission</a>
-      </li>
-      <li class="jr-menu__item jr-menu__item--footer">
-        <a href="https://bovacademy.com/careers.html" target="_blank">Careers</a>
-      </li>
-      <li class="jr-menu__item jr-menu__item--footer">
-        <a href="https://bovacademy.com/contact.html" target="_blank">Contact</a>
+      <li class="jr-menu__item jr-menu__item--social">
+        <a href="http://encyclopedia.moderndeveloper.com/" target="_blank">
+          <img src="../images/Enlightenment_temp_icon.png">
+        </a>
       </li>
     </ul>
+  </div>
 
-    <!-- Footer social bar -->
-    <div class="jr-footer__social">
-      <ul class="jr-menu jr-menu--social">
-        <li class="jr-menu__item jr-menu__item--social">
-          <a href="https://twitter.com/bovacademy" target="_blank">
-            <i class="icon-twitter" aria-hidden="true"></i>
-          </a>
-        </li>
-        <li class="jr-menu__item jr-menu__item--social">
-          <a href="https://www.instagram.com/bovacademy/" target="_blank">
-            <i class="icon-instagram" aria-hidden="true"></i>
-          </a>
-        </li>
-        <li class="jr-menu__item jr-menu__item--social">
-          <a href="http://encyclopedia.moderndeveloper.com/" target="_blank">
-            <img src="../images/Enlightenment_temp_icon.png">
-          </a>
-        </li>
-      </ul>
-    </div>
-
-    <hr>
-
-    <!-- Footer developer section-->
-    <div class="jr-footer__developers">
-      <p>Site developed by Bov Academy Students</p>
-      <div class="jr-developers">
-        <div class="row">
-          <!-- Each developer -->
-          <div class="jr-developers__each">
-            <div>
-              <img src="../images/jake.jpg" class="jr-developers__each__img"
-                   id="pic-jake">
-            </div>
-            <p class="jr-developers__each__name">Jake Tom</p>
-          </div>
-
-          <!-- Each developer -->
-          <div class="jr-developers__each">
-            <div>
-              <img src="../images/brent.jpg" class="jr-developers__each__img"
-                   id="pic-brent">
-            </div>
-            <p class="jr-developers__each__name">Brent Guffens</p>
-          </div>
-        </div>
-
-        <div class="row">
-          <!-- Each developer -->
-          <div class="jr-developers__each">
-            <div>
-              <img src="../images/lena.jpg" class="jr-developers__each__img"
-                   id="pic-lena">
-            </div>
-            <p class="jr-developers__each__name">Lena Faure</p>
-          </div>
-
-          <!-- Each developer -->
-          <div class="jr-developers__each">
-            <div id="div-jing">
-              <img src="../images/jing.jpg" class="jr-developers__each__img"
-                   id="pic-jing">
-            </div>
-            <p class="jr-developers__each__name">Jing Ran</p>
-          </div>
-        </div>
-
+  <div class="lf-subscribe-footer">
+    <form onsubmit="return validateFooterForm()">
+      <label>Blog's Newsletter</label>
+      <div class="lf-subscribe__item lf-subscribe__item__footer"><span class="lf-form-error lf-footer__empty-name"></span><input id="footer-name" type="text" placeholder="First Name"></div>
+      <div class="lf-subscribe__item lf-subscribe__item__footer"><span class="lf-form-error lf-footer__empty-email"></span><input id="footer-email" type="text" placeholder="Email"></div>
+      <div class="lf-subscribe__item lf-subscribe__item__footer lf-subscribe__item__footer__subscribe">
+        <input class="md-text-center md-ganalytics" data-ga-category="Subscription" data-ga-action="subscribe" data-ga-label="Subscribe for updates" type="submit" name="submit-mailchimp" value="Subscribe">
       </div>
-    </div>
-  </footer>
+    </form>
+  </div>
 
+  <hr>
+
+  <!-- Footer developer section-->
+  <div class="jr-footer__developers">
+    <p>Site developed by Bov Academy Students</p>
+    <div class="jr-developers">
+      <div class="row">
+        <!-- Each developer -->
+        <div class="jr-developers__each">
+          <div>
+            <img src="../images/jake.jpg" class="jr-developers__each__img"
+                 id="pic-jake">
+          </div>
+          <p class="jr-developers__each__name">Jake Tom</p>
+        </div>
+
+        <!-- Each developer -->
+        <div class="jr-developers__each">
+          <div>
+            <img src="../images/brent.jpg" class="jr-developers__each__img"
+                 id="pic-brent">
+          </div>
+          <p class="jr-developers__each__name">Brent Guffens</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <!-- Each developer -->
+        <div class="jr-developers__each">
+          <div>
+            <img src="../images/lena.jpg" class="jr-developers__each__img"
+                 id="pic-lena">
+          </div>
+          <p class="jr-developers__each__name">Lena Faure</p>
+        </div>
+
+        <!-- Each developer -->
+        <div class="jr-developers__each">
+          <div>
+            <img src="../images/jing.jpg" class="jr-developers__each__img"
+                 id="pic-jing">
+          </div>
+          <p class="jr-developers__each__name">Jing Ran</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</footer>
+<!-- Footer ends here -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
   <script src="../subscribe-button.js"></script>
 </body>
 
